@@ -17,8 +17,8 @@
     </style>
   </defs>
   <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <path d="M30,232 C37.3,230 60.7,224.3 74,220 C87.3,215.7 97.3,210.7 110,206 C112.3,205.1 114.8,204.3 117.3,203.4" class="track"/>
-  <g transform="translate(110,206) rotate(-20)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(64,192) rotate(-30)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-  <circle cx="96" cy="214" r="5" class="dot"/>
+  <path d="M101,276 C102,273 103,263 104,256 C106,250 107,243 109,237 C111,230 113,224 115,218 C117.3,212.6 119.0,207.8 121.1,203.2" class="track"/>
+  <g transform="translate(122,203) rotate(25)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+  <g transform="translate(108,247) rotate(25)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+  <circle cx="134" cy="209" r="5" class="dot"/>
 </svg>

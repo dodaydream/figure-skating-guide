@@ -18,7 +18,7 @@
   </defs>
   <rect x="0" y="0" width="300" height="300" class="panel"/>
   <path d="M96,274 C92,202 112,146 152,122 C164,114 170,114 178,121 C166,129 157,143 156,166 C155,198 168,240 198,274" class="track"/>
-  <g transform="translate(172,216) rotate(172)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(184,162) rotate(168)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+  <g transform="translate(172,216) rotate(-20)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+  <g transform="translate(184,162) rotate(-20)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
   <circle cx="160" cy="220" r="5" class="dot"/>
 </svg>

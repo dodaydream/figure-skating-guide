@@ -19,6 +19,6 @@
   <rect x="0" y="0" width="300" height="300" class="panel"/>
   <path d="M140.4,275.6 C136.3,274.8 123.9,273.2 116,270.6 C108.2,268.1 100.4,264.5 93.3,260.3 C86.3,256 79.5,250.9 73.6,245.1 C67.7,239.4 62.2,232.8 57.7,225.9 C56.6,224.2 55.6,222.5 54.6,220.7" class="track"/>
   <g transform="translate(66,237) rotate(-40)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(104,262) rotate(-6)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+  <g transform="translate(104,262) rotate(-40)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
   <circle cx="76" cy="229" r="5" class="dot"/>
 </svg>

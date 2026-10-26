@@ -1,0 +1,28 @@
+{
+  "name": "figure-skating-guide",
+  "version": "1.0.0",
+  "description": "Quick-reference pages from *The Complete Book of Figure Skating* by Carole Shulman.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "bash scripts/deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodaydream/figure-skating-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dodaydream/figure-skating-guide/issues"
+  },
+  "homepage": "https://github.com/dodaydream/figure-skating-guide#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

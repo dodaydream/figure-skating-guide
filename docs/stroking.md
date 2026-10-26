@@ -33,26 +33,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 ## Forward Sculling (Swizzle) <span class="badge">Beginner</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Forward sculling diagram: feet and blades from above — boots on the lemon-shaped track at the pushing-apart moment, toes pointed out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah1)}
-      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-  <path d="M150,248 C92,220 84,150 150,96 C216,150 208,220 150,248 Z" class="track"/>
-  <g transform="translate(107,203) rotate(-32)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(193,203) rotate(32)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/forward-sculling.svg" alt="Forward sculling diagram: feet and blades from above — boots on the lemon-shaped track at the pushing-apart moment, toes pointed out" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -77,27 +58,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 ## Forward Glides · Basic Stroking <span class="badge">Beginner</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Forward glides diagram: feet and blades from above — one foot gliding straight ahead, the other rotated out about 45 degrees pressing behind it" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah2)}
-      .dot{fill:#d64541}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-  <g transform="translate(115,118)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(192,222) rotate(45)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <circle cx="183" cy="213" r="5" class="dot"/>
-  <path d="M224,246 L254,270" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/forward-glides.svg" alt="Forward glides diagram: feet and blades from above — one foot gliding straight ahead, the other rotated out about 45 degrees pressing behind it" width="300" height="300">
 </div>
 
 ![Black-and-white book photo in two panels: (a) a skater pressing with the right foot, (b) the same skater gliding forward on the left foot](/stroking-assets/fig5-forward-stroking.png)
@@ -121,25 +82,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 ## Advanced Forward Stroking <span class="badge">Intermediate</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Advanced forward stroking diagram: feet and blades from above — the skating foot gliding ahead, the push-off foot stretched out behind it, shown dashed because it is lifted off the ice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah3)}
-      .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-  <g transform="translate(133,102)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(148,226)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/advanced-forward-stroking.svg" alt="Advanced forward stroking diagram: feet and blades from above — the skating foot gliding ahead, the push-off foot stretched out behind it, shown dashed because it is lifted off the ice" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -164,29 +107,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 ## Power Stroking <span class="badge">Advanced</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Power stroking diagram: feet and blades from above — one foot gliding ahead, the other driving out explosively behind with spray marks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah4)}
-      .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
-      .dot{fill:#d64541}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-  <g transform="translate(108,112)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(196,218) rotate(50)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <circle cx="184" cy="206" r="5" class="dot"/>
-  <path d="M226,240 L256,264" class="arr"/>
-  <path d="M224,196 L246,184 M230,220 L256,220 M224,244 L246,256" class="spray"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/power-stroking.svg" alt="Power stroking diagram: feet and blades from above — one foot gliding ahead, the other driving out explosively behind with spray marks" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -211,26 +132,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 ## Backward Sculling (Swizzle) <span class="badge">Beginner</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Backward sculling diagram: feet and blades from above — boots on the lemon-shaped track at the opening push, toes pointed out, with the travel arrow pointing down the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah5)}
-      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <path d="M150,52 C92,80 84,150 150,204 C216,150 208,80 150,52 Z" class="track"/>
-  <g transform="translate(106,104) rotate(-30)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(194,104) rotate(30)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <path d="M150,240 L150,274" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/backward-sculling.svg" alt="Backward sculling diagram: feet and blades from above — boots on the lemon-shaped track at the opening push, toes pointed out, with the travel arrow pointing down the page" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -255,24 +157,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 ## Backward Glides <span class="badge">Beginner–Intermediate</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Backward glides diagram: feet and blades from above — two feet close together gliding backward, travel arrow pointing down the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah6)}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <g transform="translate(133,148)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(170,148)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <path d="M150,238 L150,272" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/backward-glides.svg" alt="Backward glides diagram: feet and blades from above — two feet close together gliding backward, travel arrow pointing down the page" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -299,27 +184,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 Only a teaching tip in the book — fleshed out from Learn to Skate–style curricula, where the backward wiggle is the classic first backward movement.
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="The Snake diagram: feet and blades from above — two boots side by side, each on its own wavy track running the full height of the panel, with a red arrow pointing down the page for backward travel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah8)}
-      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <path d="M126,38 C102,64 150,88 126,114 C102,140 150,164 126,190 C106,214 144,236 126,260 C117,272 122,280 126,288" class="track"/>
-  <path d="M168,38 C144,64 192,88 168,114 C144,140 192,164 168,190 C148,214 186,236 168,260 C159,272 164,280 168,288" class="track"/>
-  <g transform="translate(126,92) rotate(-14)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(168,92) rotate(-14)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <path d="M150,262 L150,288" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/the-snake.svg" alt="The Snake diagram: feet and blades from above — two boots side by side, each on its own wavy track running the full height of the panel, with a red arrow pointing down the page for backward travel" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -346,25 +211,7 @@ Only a teaching tip in the book — fleshed out from Learn to Skate–style curr
 ## Advanced Backward Skating <span class="badge">Intermediate</span>
 
 <div v-pre>
-<figure>
-<svg role="img" aria-label="Advanced backward skating diagram: feet and blades from above — one foot gliding backward, the other shown dashed, hovering just off the ice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-  <defs>
-    <marker id="ah7" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-    <style>
-      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
-      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah7)}
-      .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
-    </style>
-  </defs>
-  <rect x="0" y="0" width="300" height="300" class="panel"/>
-  <g transform="translate(128,152)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(185,138)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-  <path d="M150,242 L150,276" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stroking-assets/advanced-backward-skating.svg" alt="Advanced backward skating diagram: feet and blades from above — one foot gliding backward, the other shown dashed, hovering just off the ice" width="300" height="300">
 </div>
 
 <div class="video-embed">

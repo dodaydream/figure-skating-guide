@@ -21,18 +21,7 @@ Brake with the blade — **never run into the boards or drag your toe pick.**
 ## 1. Snowplow Stop <Badge type="tip" text="Beginner" />
 
 <div v-pre>
-<figure class="diagram">
-<svg role="img" aria-label="Snowplow stop diagram: feet and blades from above — toes turned in toward each other at the front, heels pushed out at the back, an upside-down V" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-<defs><marker id="feet1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d64541"/></marker><style>.panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}.ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}.lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}.lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}.arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet1)}.dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet1)}.spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}.dot{fill:#d64541}.ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}</style></defs>
-<rect x="0" y="0" width="300" height="300" class="panel"/>
-<line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-<g transform="translate(108,170) rotate(38)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-<g transform="translate(192,170) rotate(-38)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-<circle cx="101" cy="196" r="5" class="dot"/><circle cx="199" cy="196" r="5" class="dot"/>
-<path d="M72,190 L32,220" class="arr"/><path d="M228,190 L268,220" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stops-assets/snowplow.svg" alt="Snowplow stop diagram: feet and blades from above — toes turned in toward each other at the front, heels pushed out at the back, an upside-down V" width="300" height="300">
 </div>
 
 ![Black-and-white book photo of a skater performing the snowplow stop, arms out to the sides and feet in a wedge](/stops-assets/fig1-snowplow.png)
@@ -59,18 +48,7 @@ Not in the book — a standard beginner progression, added from coaching sources
 :::
 
 <div v-pre>
-<figure class="diagram">
-<svg role="img" aria-label="One-foot snowplow stop diagram: feet and blades from above — one foot pointing straight ahead, the other turned in about 45 degrees, half of the snowplow wedge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-<defs><marker id="feet5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d64541"/></marker><style>.panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}.ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}.lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}.lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}.arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet5)}.dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet5)}.spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}.dot{fill:#d64541}.ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}</style></defs>
-<rect x="0" y="0" width="300" height="300" class="panel"/>
-<line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-<g transform="translate(105,172)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-<g transform="translate(198,160) rotate(-40)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-<circle cx="188" cy="169" r="5" class="dot"/>
-<path d="M232,182 L270,206" class="arr"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stops-assets/snowplow-onefoot.svg" alt="One-foot snowplow stop diagram: feet and blades from above — one foot pointing straight ahead, the other turned in about 45 degrees, half of the snowplow wedge" width="300" height="300">
 </div>
 
 <div class="video-embed">
@@ -96,18 +74,7 @@ Not in the book — a standard beginner progression, added from coaching sources
 ## 2. T-Stop <Badge type="tip" text="Beginner–Intermediate" />
 
 <div v-pre>
-<figure class="diagram">
-<svg role="img" aria-label="T-Stop diagram: feet and blades from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-<defs><marker id="feet2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d64541"/></marker><style>.panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}.ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}.lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}.lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}.arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet2)}.dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet2)}.spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}.dot{fill:#d64541}.ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}</style></defs>
-<rect x="0" y="0" width="300" height="300" class="panel"/>
-<line x1="102" y1="88" x2="102" y2="52" class="arr"/>
-<g transform="translate(102,118)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-<g transform="translate(102,212) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-<circle cx="102" cy="225" r="5" class="dot"/>
-<path d="M60,268 L60,226" class="dash"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stops-assets/tstop.svg" alt="T-Stop diagram: feet and blades from above" width="300" height="300">
 </div>
 
 ![Black-and-white book photo of a skater performing the T-stop, arms out to the sides with one foot behind the other](/stops-assets/fig2-tstop.png)
@@ -130,18 +97,7 @@ Not in the book — a standard beginner progression, added from coaching sources
 ## 3. Hockey Stop <Badge type="danger" text="Advanced" /> <Badge type="warning" text="Emergency brake" />
 
 <div v-pre>
-<figure class="diagram">
-<svg role="img" aria-label="Hockey stop diagram: feet and blades from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-<defs><marker id="feet3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d64541"/></marker><style>.panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}.ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}.lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}.lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}.arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet3)}.dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet3)}.spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}.dot{fill:#d64541}.ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}</style></defs>
-<rect x="0" y="0" width="300" height="300" class="panel"/>
-<line x1="150" y1="88" x2="150" y2="52" class="arr"/>
-<g transform="translate(112,168) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-<g transform="translate(188,168) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-<path d="M60,138 L28,120 M58,168 L22,168 M60,198 L28,216" class="spray"/>
-<path d="M240,138 L272,120 M242,168 L278,168 M240,198 L272,216" class="spray"/>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stops-assets/hockey.svg" alt="Hockey stop diagram: feet and blades from above" width="300" height="300">
 </div>
 
 ![Black-and-white book photo of a skater performing the hockey stop, body turned sideways with knees bent and arms out](/stops-assets/fig3-hockey.png)
@@ -164,16 +120,7 @@ Not in the book — a standard beginner progression, added from coaching sources
 ## 4. One-Footed Stop <Badge type="danger" text="Advanced" />
 
 <div v-pre>
-<figure class="diagram">
-<svg role="img" aria-label="One-footed stop diagram: feet and blades from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-<defs><marker id="feet4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d64541"/></marker><style>.panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}.ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}.lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}.lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}.arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet4)}.dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet4)}.spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}.track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.dot{fill:#d64541}.ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}</style></defs>
-<rect x="0" y="0" width="300" height="300" class="panel"/>
-<line x1="120" y1="88" x2="120" y2="52" class="arr"/>
-<g transform="translate(108,185) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-<g transform="translate(218,190) rotate(55)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-</svg>
-<figcaption>Feet &amp; blades, from above</figcaption>
-</figure>
+<img src="/stops-assets/onefoot.svg" alt="One-footed stop diagram: feet and blades from above" width="300" height="300">
 </div>
 
 ![Black-and-white book photo of a skater performing the one-footed stop, balanced on one skate with the other leg lifted out to the side](/stops-assets/fig4-onefoot.png)

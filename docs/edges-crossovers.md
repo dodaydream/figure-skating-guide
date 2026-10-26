@@ -33,19 +33,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 <span class="badge">Beginner–Intermediate</span>
 
 <div v-pre>
-<svg role="img" aria-label="Forward outside edge diagram: feet and blades from above — one boot riding a curve that bends to the right, red dot on the outside edge, travel arrow pointing up the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
-  <rect x="0" y="0" width="300" height="300" fill="#ffffff" stroke="#c9d6e4" stroke-width="1.5"/>
-  <defs>
-    <marker id="ah1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-  </defs>
-  <line x1="150" y1="88" x2="150" y2="52" stroke="#d64541" stroke-width="3" marker-end="url(#ah1)"/>
-  <path d="M118,262 C104,196 138,118 208,74" stroke="#7fb2dd" stroke-width="3" fill="none"/>
-  <g transform="translate(136,150) rotate(28)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(128,234) rotate(28)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="none" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="6 4"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-  <circle cx="150" cy="157" r="5" fill="#d64541"/>
-</svg>
+<img src="/edges-assets/forward-outside-edge.svg" alt="Forward outside edge diagram: feet and blades from above — one boot riding a curve that bends to the right, red dot on the outside edge, travel arrow pointing up the page" width="300" height="300">
 </div>
 
 *Feet & blades, from above*
@@ -72,19 +60,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 <span class="badge">Beginner–Intermediate</span>
 
 <div v-pre>
-<svg role="img" aria-label="Forward inside edge diagram: feet and blades from above — one boot riding a curve that bends to the left, red dot on the inside edge, travel arrow pointing up the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
-  <rect x="0" y="0" width="300" height="300" fill="#ffffff" stroke="#c9d6e4" stroke-width="1.5"/>
-  <defs>
-    <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-  </defs>
-  <line x1="150" y1="88" x2="150" y2="52" stroke="#d64541" stroke-width="3" marker-end="url(#ah2)"/>
-  <path d="M182,262 C196,196 162,118 92,74" stroke="#7fb2dd" stroke-width="3" fill="none"/>
-  <g transform="translate(164,150) rotate(-28)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(172,234) rotate(-28)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="none" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="6 4"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-  <circle cx="150" cy="157" r="5" fill="#d64541"/>
-</svg>
+<img src="/edges-assets/forward-inside-edge.svg" alt="Forward inside edge diagram: feet and blades from above — one boot riding a curve that bends to the left, red dot on the inside edge, travel arrow pointing up the page" width="300" height="300">
 </div>
 
 *Feet & blades, from above*
@@ -110,19 +86,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 <span class="badge">Intermediate</span>
 
 <div v-pre>
-<svg role="img" aria-label="Back outside edge diagram: feet and blades from above — one boot riding a curve, red dot on the outside edge, travel arrow pointing down the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
-  <rect x="0" y="0" width="300" height="300" fill="#ffffff" stroke="#c9d6e4" stroke-width="1.5"/>
-  <defs>
-    <marker id="ah3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-  </defs>
-  <path d="M118,262 C104,196 138,118 208,74" stroke="#7fb2dd" stroke-width="3" fill="none"/>
-  <g transform="translate(140,143) rotate(31)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(170,90) rotate(31)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="none" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="6 4"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-  <circle cx="153" cy="151" r="5" fill="#d64541"/>
-  <path d="M150,246 L150,278" stroke="#d64541" stroke-width="3" marker-end="url(#ah3)"/>
-</svg>
+<img src="/edges-assets/back-outside-edge.svg" alt="Back outside edge diagram: feet and blades from above — one boot riding a curve, red dot on the outside edge, travel arrow pointing down the page" width="300" height="300">
 </div>
 
 *Feet & blades, from above*
@@ -150,19 +114,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 <span class="badge">Intermediate</span>
 
 <div v-pre>
-<svg role="img" aria-label="Back inside edge diagram: feet and blades from above — one boot riding a curve, red dot on the inside edge, travel arrow pointing down the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
-  <rect x="0" y="0" width="300" height="300" fill="#ffffff" stroke="#c9d6e4" stroke-width="1.5"/>
-  <defs>
-    <marker id="ah4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
-    </marker>
-  </defs>
-  <path d="M182,262 C196,196 162,118 92,74" stroke="#7fb2dd" stroke-width="3" fill="none"/>
-  <g transform="translate(160,143) rotate(-31)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
-  <g transform="translate(130,90) rotate(-31)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="none" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="6 4"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
-  <circle cx="147" cy="151" r="5" fill="#d64541"/>
-  <path d="M150,246 L150,278" stroke="#d64541" stroke-width="3" marker-end="url(#ah4)"/>
-</svg>
+<img src="/edges-assets/back-inside-edge.svg" alt="Back inside edge diagram: feet and blades from above — one boot riding a curve, red dot on the inside edge, travel arrow pointing down the page" width="300" height="300">
 </div>
 
 *Feet & blades, from above*

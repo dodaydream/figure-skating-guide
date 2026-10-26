@@ -1,0 +1,18 @@
+<svg role="img" aria-label="The Snake diagram: feet and blades from above — two boots side by side, each on its own wavy track running the full height of the panel, with a red arrow pointing down the page for backward travel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+    </marker>
+    <style>
+      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#arr)}
+      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+  <path d="M126,38 C102,64 150,88 126,114 C102,140 150,164 126,190 C106,214 144,236 126,260 C117,272 122,280 126,288" class="track"/>
+  <path d="M168,38 C144,64 192,88 168,114 C144,140 192,164 168,190 C148,214 186,236 168,260 C159,272 164,280 168,288" class="track"/>
+  <g transform="translate(126,92) rotate(-14)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+  <g transform="translate(168,92) rotate(-14)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+  <path d="M150,262 L150,288" class="arr"/>
+</svg>

@@ -101,6 +101,10 @@ Two three turns linked on the same foot with **no step down in between**: forwar
 ![Book diagram: a double three skated on a circle, its two cusps dividing the circle into thirds](/turns-assets/fig62-double-three-circle.png)
 *From the book — Figure 6.2: the double three on a circle*
 
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/eQqZdH3eKfg?si=XDtHPohZV1k9hjY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 | | |
 |---|---|
 | **Body** | Everything from the three turn, plus discipline: the whole skill is **checking the exit of the first turn** before you allow the second rotation to start. Rushed doubles wobble; checked doubles flow. |

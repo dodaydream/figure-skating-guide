@@ -28,9 +28,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Forward Outside Edges
-
-<span class="badge">Beginner–Intermediate</span>
+## Forward Outside Edges <Badge type="tip" text="Beginner–Intermediate" />
 
 <div v-pre>
 <img src="/edges-assets/forward-outside-edge.svg" alt="Forward outside edge diagram: feet and blades from above — one boot riding a curve that bends to the right, red dot on the outside edge, travel arrow pointing up the page" width="300" height="300">
@@ -55,9 +53,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Forward Inside Edges
-
-<span class="badge">Beginner–Intermediate</span>
+## Forward Inside Edges <Badge type="tip" text="Beginner–Intermediate" />
 
 <div v-pre>
 <img src="/edges-assets/forward-inside-edge.svg" alt="Forward inside edge diagram: feet and blades from above — one boot riding a curve that bends to the left, red dot on the inside edge, travel arrow pointing up the page" width="300" height="300">
@@ -81,9 +77,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Back Outside Edges
-
-<span class="badge">Intermediate</span>
+## Back Outside Edges <Badge type="warning" text="Intermediate" />
 
 <div v-pre>
 <img src="/edges-assets/back-outside-edge.svg" alt="Back outside edge diagram: feet and blades from above — one boot riding a curve, red dot on the outside edge, travel arrow pointing down the page" width="300" height="300">
@@ -109,9 +103,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Back Inside Edges
-
-<span class="badge">Intermediate</span>
+## Back Inside Edges <Badge type="warning" text="Intermediate" />
 
 <div v-pre>
 <img src="/edges-assets/back-inside-edge.svg" alt="Back inside edge diagram: feet and blades from above — one boot riding a curve, red dot on the inside edge, travel arrow pointing down the page" width="300" height="300">
@@ -137,9 +129,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Change of Edge
-
-<span class="badge">Advanced</span>
+## Change of Edge <Badge type="danger" text="Advanced" />
 
 <div v-pre>
 
@@ -187,9 +177,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Forward Crossovers
-
-<span class="badge">Intermediate</span>
+## Forward Crossovers <Badge type="warning" text="Intermediate" />
 
 <div v-pre>
 
@@ -234,9 +222,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 
 ---
 
-## Back Crossovers
-
-<span class="badge">Advanced</span>
+## Back Crossovers <Badge type="danger" text="Advanced" />
 
 <div v-pre>
 

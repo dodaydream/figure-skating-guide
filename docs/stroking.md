@@ -30,7 +30,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## Forward Sculling (Swizzle) <span class="badge">Beginner</span>
+## Forward Sculling (Swizzle) <Badge type="tip" text="Beginner" />
 
 <div v-pre>
 <img src="/stroking-assets/forward-sculling.svg" alt="Forward sculling diagram: feet and blades from above — boots on the lemon-shaped track at the pushing-apart moment, toes pointed out" width="300" height="300">
@@ -55,7 +55,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## Forward Glides · Basic Stroking <span class="badge">Beginner</span>
+## Forward Glides · Basic Stroking <Badge type="tip" text="Beginner" />
 
 <div v-pre>
 <img src="/stroking-assets/forward-glides.svg" alt="Forward glides diagram: feet and blades from above — one foot gliding straight ahead, the other rotated out about 45 degrees pressing behind it" width="300" height="300">
@@ -79,7 +79,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## Advanced Forward Stroking <span class="badge">Intermediate</span>
+## Advanced Forward Stroking <Badge type="warning" text="Intermediate" />
 
 <div v-pre>
 <img src="/stroking-assets/advanced-forward-stroking.svg" alt="Advanced forward stroking diagram: feet and blades from above — the skating foot gliding ahead, the push-off foot stretched out behind it, shown dashed because it is lifted off the ice" width="300" height="300">
@@ -104,7 +104,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## Power Stroking <span class="badge">Advanced</span>
+## Power Stroking <Badge type="danger" text="Advanced" />
 
 <div v-pre>
 <img src="/stroking-assets/power-stroking.svg" alt="Power stroking diagram: feet and blades from above — one foot gliding ahead, the other driving out explosively behind with spray marks" width="300" height="300">
@@ -129,7 +129,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## Backward Sculling (Swizzle) <span class="badge">Beginner</span>
+## Backward Sculling (Swizzle) <Badge type="tip" text="Beginner" />
 
 <div v-pre>
 <img src="/stroking-assets/backward-sculling.svg" alt="Backward sculling diagram: feet and blades from above — boots on the lemon-shaped track at the opening push, toes pointed out, with the travel arrow pointing down the page" width="300" height="300">
@@ -154,7 +154,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## Backward Glides <span class="badge">Beginner–Intermediate</span>
+## Backward Glides <Badge type="tip" text="Beginner–Intermediate" />
 
 <div v-pre>
 <img src="/stroking-assets/backward-glides.svg" alt="Backward glides diagram: feet and blades from above — two feet close together gliding backward, travel arrow pointing down the page" width="300" height="300">
@@ -179,7 +179,7 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ---
 
-## The Snake (Backward Wiggle) <span class="badge">Bonus · Beginner</span>
+## The Snake (Backward Wiggle) <Badge type="tip" text="Bonus · Beginner" />
 
 Only a teaching tip in the book — fleshed out from Learn to Skate–style curricula, where the backward wiggle is the classic first backward movement.
 
@@ -208,7 +208,7 @@ Only a teaching tip in the book — fleshed out from Learn to Skate–style curr
 
 ---
 
-## Advanced Backward Skating <span class="badge">Intermediate</span>
+## Advanced Backward Skating <Badge type="warning" text="Intermediate" />
 
 <div v-pre>
 <img src="/stroking-assets/advanced-backward-skating.svg" alt="Advanced backward skating diagram: feet and blades from above — one foot gliding backward, the other shown dashed, hovering just off the ice" width="300" height="300">

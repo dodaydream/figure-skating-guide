@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Figure Skating Stops — Quick Reference</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #eef5fa;
+        --surface: #ffffff;
+        --surface-soft: #f4f9fc;
+        --ink: #16324f;
+        --ink-soft: #33506e;
+        --muted: #54708c;
+        --line: #c9d6e4;
+        --ice: #dceefb;
+        --ice-deep: #bcd9f2;
+        --accent: #1d6fb8;
+        --warm: #c2501a;
+        --warm-strong: #a63f10;
+        --warm-bg: #fdeee1;
+        --warm-line: #f0b98d;
+        --badge-bg: #e3f0e2;
+        --badge-ink: #2c5a2e;
+        --badge-mid-bg: #fdf3d7;
+        --badge-mid-ink: #7a5b00;
+        --badge-adv-bg: #fdeee1;
+        --badge-adv-ink: #a63f10;
+        --chip-body: #23406b;
+        --chip-feet: #1d6fb8;
+        --chip-blade: #5a718c;
+        --chip-ink: #ffffff;
+        --shadow: 0 2px 10px rgba(22, 50, 79, 0.08), 0 12px 32px rgba(22, 50, 79, 0.06);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --bg: #0b1622;
+          --surface: #122335;
+          --surface-soft: #0f1e2f;
+          --ink: #e9f2f9;
+          --ink-soft: #c3d6e6;
+          --muted: #93a9bd;
+          --line: #2a435c;
+          --ice: #1a3249;
+          --ice-deep: #24455f;
+          --accent: #7db9ec;
+          --warm: #f0915a;
+          --warm-strong: #f5a06c;
+          --warm-bg: #38220f;
+          --warm-line: #7a4a24;
+          --badge-bg: #1d3826;
+          --badge-ink: #a5d6a9;
+          --badge-mid-bg: #3d3410;
+          --badge-mid-ink: #f0d47a;
+          --badge-adv-bg: #40260f;
+          --badge-adv-ink: #f5a06c;
+          --chip-body: #33507c;
+          --chip-feet: #2273b5;
+          --chip-blade: #51687f;
+          --shadow: 0 2px 10px rgba(0, 0, 0, 0.35), 0 12px 32px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.55;
+        -webkit-text-size-adjust: 100%;
+      }
+      .wrap {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 28px 20px 48px;
+      }
+
+      /* ---------- Header ---------- */
+      header { margin-bottom: 26px; }
+      h1 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 900;
+        font-size: clamp(1.9rem, 6vw, 2.9rem);
+        line-height: 1.12;
+        letter-spacing: -0.01em;
+        margin: 0 0 12px;
+      }
+      .intro {
+        font-size: 1.13rem;
+        color: var(--ink-soft);
+        margin: 0 0 22px;
+        max-width: 42em;
+      }
+      .golden {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        background: var(--warm-bg);
+        border: 2px solid var(--warm-line);
+        border-radius: 14px;
+        padding: 16px 18px;
+      }
+      .golden .rule-mark {
+        flex: 0 0 auto;
+        width: 34px;
+        height: 34px;
+        margin-top: 2px;
+      }
+      .golden p { margin: 0; font-size: 1.08rem; }
+      .golden .rule-label {
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--warm-strong);
+        margin-bottom: 3px;
+      }
+      .golden strong { color: var(--warm-strong); }
+
+      /* ---------- Picker ---------- */
+      .picker { margin: 30px 0 8px; }
+      .picker h2, .compare h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 700;
+        font-size: 1.45rem;
+        margin: 0 0 14px;
+      }
+      .picker-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .pick {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        background: var(--surface);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: var(--ink);
+        box-shadow: var(--shadow);
+      }
+      .pick:hover, .pick:focus-visible { border-color: var(--accent); }
+      .pick .when { color: var(--ink-soft); font-size: 1rem; line-height: 1.35; }
+      .pick .what {
+        font-weight: 700;
+        white-space: nowrap;
+        color: var(--accent);
+        font-size: 1.05rem;
+      }
+      .pick .what .arrw { font-weight: 400; }
+      .pick.hot { border-color: var(--warm-line); background: var(--warm-bg); }
+      .pick.hot .what { color: var(--warm-strong); }
+      .pick.hot .when { color: var(--ink); }
+
+      /* ---------- Cards ---------- */
+      .stop-card {
+        background: var(--surface);
+        border: 1.5px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        padding: 24px 24px 26px;
+        margin-top: 30px;
+        scroll-margin-top: 16px;
+      }
+      .stop-card.hot { border-color: var(--warm-line); }
+      .card-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 14px;
+        margin-bottom: 16px;
+      }
+      .card-head h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 700;
+        font-size: 1.65rem;
+        line-height: 1.15;
+        margin: 0;
+      }
+      .card-head .num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--ice);
+        color: var(--ink);
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 900;
+        font-size: 1.15rem;
+        flex: 0 0 auto;
+      }
+      .stop-card.hot .num { background: var(--warm-bg); color: var(--warm-strong); }
+      .badge {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 4px 11px;
+        border-radius: 999px;
+        background: var(--badge-bg);
+        color: var(--badge-ink);
+      }
+      .badge.mid { background: var(--badge-mid-bg); color: var(--badge-mid-ink); }
+      .badge.adv { background: var(--badge-adv-bg); color: var(--badge-adv-ink); }
+      .flag {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 4px 11px;
+        border-radius: 999px;
+        background: var(--warm);
+        color: #fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        .flag { color: #241203; }
+      }
+
+      .stop-card .num.bonus {
+        width: auto;
+        height: 38px;
+        border-radius: 999px;
+        padding: 0 14px;
+        font-size: 0.82rem;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+      }
+      .card-note {
+        margin: 0 0 20px;
+        padding: 12px 16px;
+        background: var(--surface-soft);
+        border: 1.5px dashed var(--line);
+        border-radius: 12px;
+        color: var(--ink-soft);
+        font-size: 1rem;
+      }
+
+      figure.diagram {
+        margin: 0 0 20px;
+        background: #ffffff;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 10px;
+      }
+      figure.diagram svg { display: block; width: 100%; height: auto; }
+
+      /* ---------- Feet diagram: one per card ---------- */
+      .diagrams {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 0 0 20px;
+      }
+      .diagrams figure.diagram {
+        margin: 0;
+        width: 100%;
+        max-width: 330px;
+      }
+      figure.diagram figcaption {
+        text-align: center;
+        font-size: 0.88rem;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+
+      /* ---------- Book reference photos ---------- */
+      .book-photo {
+        margin: 0 0 20px;
+        text-align: center;
+      }
+      .book-photo img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 290px;
+        height: auto;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        background: #ffffff;
+      }
+      .book-photo figcaption {
+        margin-top: 8px;
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+      .book-photo figcaption a { color: inherit; }
+
+      /* ---------- Embedded video player ---------- */
+      .video-embed {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        max-width: 560px;
+        margin: 0 auto;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        background: #000;
+      }
+      .video-embed iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+      }
+
+      .rows { display: grid; gap: 14px; margin: 0 0 20px; }
+      .row {
+        display: grid;
+        grid-template-columns: 74px 1fr;
+        gap: 14px;
+        align-items: start;
+      }
+      .row .tag {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--chip-ink);
+        border-radius: 8px;
+        padding: 5px 4px;
+        margin-top: 3px;
+      }
+      .tag.t-body { background: var(--chip-body); }
+      .tag.t-feet { background: var(--chip-feet); }
+      .tag.t-blade { background: var(--chip-blade); }
+      .row p { margin: 0; color: var(--ink-soft); }
+      .row p strong { color: var(--ink); }
+
+      .tips {
+        background: var(--surface-soft);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 16px 18px 8px;
+      }
+      .tips h3 {
+        margin: 0 0 8px;
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .tips ul { margin: 0; padding: 0; list-style: none; }
+      .tips li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        color: var(--ink-soft);
+      }
+      .tips li::before {
+        content: "";
+        position: absolute;
+        left: 2px;
+        top: 0.52em;
+        width: 8px;
+        height: 8px;
+        border-radius: 2px;
+        background: var(--ice-deep);
+        transform: rotate(45deg);
+      }
+      .tips li strong { color: var(--ink); }
+
+      /* ---------- Comparison table ---------- */
+      .compare { margin-top: 40px; }
+      .table-scroll {
+        overflow-x: auto;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        -webkit-overflow-scrolling: touch;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 680px;
+        font-size: 0.98rem;
+      }
+      th, td {
+        text-align: left;
+        padding: 12px 14px;
+        vertical-align: top;
+        border-bottom: 1px solid var(--line);
+      }
+      thead th {
+        background: var(--ice);
+        color: var(--ink);
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      tbody th { font-weight: 700; color: var(--ink); white-space: nowrap; }
+      tbody td { color: var(--ink-soft); }
+      tbody tr:last-child th, tbody tr:last-child td { border-bottom: none; }
+      tbody tr.hot-row th, tbody tr.hot-row td { background: var(--warm-bg); }
+      tbody tr.hot-row td.fast { font-weight: 700; color: var(--warm-strong); }
+
+      footer {
+        margin-top: 36px;
+        padding-top: 18px;
+        border-top: 1.5px solid var(--line);
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      footer p { margin: 0; }
+
+      @media (max-width: 620px) {
+        body { font-size: 17px; }
+        .wrap { padding: 20px 14px 40px; }
+        .picker-grid { grid-template-columns: 1fr; }
+        .stop-card { padding: 18px 16px 20px; }
+        .row { grid-template-columns: 62px 1fr; gap: 10px; }
+        figure.diagram { padding: 6px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+
+      <header>
+        <h1>Figure Skating Stops — Quick Reference</h1>
+        <p class="intro">Four ways to stop on figure skates, in the order you learn them — from the book <em>The Complete Book of Figure Skating</em>, Chapter 4.</p>
+        <div class="golden" role="note">
+          <svg class="rule-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2 L14.6 9.4 L22 12 L14.6 14.6 L12 22 L9.4 14.6 L2 12 L9.4 9.4 Z" fill="#c2501a"/></svg>
+          <p><span class="rule-label">The golden rule</span>Brake with the blade — <strong>never run into the boards or drag your toe pick.</strong></p>
+        </div>
+      </header>
+
+      <nav class="picker" aria-label="Which stop when?">
+        <h2>Which stop when?</h2>
+        <div class="picker-grid">
+          <a class="pick" href="#snowplow">
+            <span class="when">Beginner, everyday stop</span>
+            <span class="what">Snowplow <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#one-foot-snowplow">
+            <span class="when">Ready to brake on one foot</span>
+            <span class="what">One-Foot Snowplow (bonus) <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#t-stop">
+            <span class="when">Graceful, planned stop</span>
+            <span class="what">T-Stop <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick hot" href="#hockey-stop">
+            <span class="when">Emergency / fastest stop</span>
+            <span class="what">Hockey Stop <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#one-footed-stop">
+            <span class="when">For show</span>
+            <span class="what">One-Footed Stop <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </nav>
+
+      <main>
+        <!-- CARD 1 -->
+        <section class="stop-card" id="snowplow" aria-labelledby="snowplow-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">1</span>
+            <h2 id="snowplow-h">Snowplow Stop</h2>
+            <span class="badge">Beginner</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Snowplow stop diagram: feet and blades from above — toes turned in toward each other at the front, heels pushed out at the back, an upside-down V" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="feet1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+                  .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+                  .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet1)}
+                  .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet1)}
+                  .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+                  .dot{fill:#d64541}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <g transform="translate(108,170) rotate(38)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(192,170) rotate(-38)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <circle cx="101" cy="196" r="5" class="dot"/>
+              <circle cx="199" cy="196" r="5" class="dot"/>
+              <path d="M72,190 L32,220" class="arr"/>
+              <path d="M228,190 L268,220" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+                    <figure class="book-photo">
+            <img src="assets/fig1-snowplow.png" alt="Black-and-white book photo of a skater performing the snowplow stop, arms out to the sides and feet in a wedge" width="729" height="739">
+            <figcaption>From the book — Figure 4.1</figcaption>
+          </figure>
+<div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Upright torso, arms extended straight out to the sides for balance.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Start with feet parallel, about shoulder-width apart. Press both feet into the ice and push/slide them out to the sides, finishing in a wedge like the point of a snowplow blade: toes turned in toward each other, heels pushed out — an upside-down V seen from above.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p><strong>Both blades.</strong> Braking comes from pressing down so the blades skid and shave the ice.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>The most basic stop — and the bridge to learning all the others. Advanced skaters rarely use it once harder stops are mastered.</li>
+              <li><strong>Pressure check:</strong> done right, you'll shave a little snow off the ice and leave a visible skid mark.</li>
+              <li><strong>Drill ("Yikes! Stripes!"):</strong> practice on a painted hockey line so the skid prints show clearly; or hold your balance over one foot while the other pushes out, one foot at a time.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- BONUS CARD (not in the book) -->
+        <section class="stop-card" id="one-foot-snowplow" aria-labelledby="onefoot-snowplow-h">
+          <div class="card-head">
+            <span class="num bonus" aria-hidden="true">Bonus</span>
+            <h2 id="onefoot-snowplow-h">One-Foot Snowplow Stop</h2>
+            <span class="badge">Bonus · Beginner</span>
+          </div>
+          <p class="card-note">Not in the book — a standard beginner progression, added from coaching sources on the web.</p>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="One-foot snowplow stop diagram: feet and blades from above — one foot pointing straight ahead, the other turned in about 45 degrees, half of the snowplow wedge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="feet5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+                  .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+                  .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet5)}
+                  .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet5)}
+                  .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+                  .dot{fill:#d64541}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <g transform="translate(105,172)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(198,160) rotate(-40)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <circle cx="188" cy="169" r="5" class="dot"/>
+              <path d="M232,182 L270,206" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/rhQY1_bTjVs" title="Coach Julia — How to stop on ice skates: Forward Snowplow Stop, including the one-foot version" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=rhQY1_bTjVs" target="_blank" rel="noopener noreferrer">▶ Watch: Forward Snowplow Stop, incl. the one-foot version — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Same snowplow posture — upright torso, arms out to the sides, knees bent. Most of your weight sits over the straight gliding foot; the braking foot starts light.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Glide forward on one foot, pointing straight ahead. Set the other foot down slightly ahead, turned in about 45° — toe in, heel pushed out, like one half of the snowplow wedge — and ease it into a scrape.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The braking foot skids on the inside part of its inside edge, shaving snow; keep the blade flatter so it scrapes instead of catching. The gliding blade stays flat and straight.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>The classic bridge from the two-foot snowplow to the T-stop and the hockey stop.</li>
+              <li>Start at the boards: holding on, push one foot out at a time to feel the scrape and build a little snow pile.</li>
+              <li>Add pressure gradually — digging in hard too fast makes the edge catch.</li>
+              <li>Practice braking with each foot; most beginners favor one side.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 2 -->
+        <section class="stop-card" id="t-stop" aria-labelledby="tstop-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">2</span>
+            <h2 id="tstop-h">T-Stop</h2>
+            <span class="badge mid">Beginner–Intermediate</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="T-Stop diagram: feet and blades from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="feet2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+                  .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+                  .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet2)}
+                  .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet2)}
+                  .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+                  .dot{fill:#d64541}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="102" y1="88" x2="102" y2="52" class="arr"/>
+              <g transform="translate(102,118)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(102,212) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+              <circle cx="102" cy="225" r="5" class="dot"/>
+              <path d="M60,268 L60,226" class="dash"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+                    <figure class="book-photo">
+            <img src="assets/fig2-tstop.png" alt="Black-and-white book photo of a skater performing the T-stop, arms out to the sides with one foot behind the other" width="619" height="800">
+            <figcaption>From the book — Figure 4.2</figcaption>
+          </figure>
+<div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Both arms stretched out to the sides, palms facing the ice and pressing down slightly. Ribcage lifted slightly so the back stays straight — this gives posture, balance, and stability.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Glide forward on one foot. Lift the other foot and set it down <strong>12–18 inches behind</strong> the gliding foot, turned perpendicular. The back foot then drags/pulls lightly toward the front foot. You finish in an <strong>upside-down T</strong>: front foot pointing forward, back foot sideways behind it, heel of the front foot at the instep of the back foot. During the drag: front knee slightly bent, back knee straight; at the very end, both knees straighten.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p><strong>The back foot does the braking</strong> (its blade skids with snowplow-like pressure). <strong>Progression:</strong> place the back foot on its outside edge, close behind the front foot — this builds the outside-edge control you'll need for the one-foot stop.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li><strong>NOT a quick stop</strong> — it's a prepared stop: controlled and aesthetically pleasing.</li>
+              <li>Practice with each foot in front (right-front and left-front).</li>
+              <li><strong>Barrier drill:</strong> face the boards, hold on with both hands, front toe perpendicular to the boards, and repeatedly draw the back foot up to the front to make "snow piles." This teaches exactly how much pressure stops you; as you improve, apply more pressure in less time.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 3 -->
+        <section class="stop-card hot" id="hockey-stop" aria-labelledby="hockey-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">3</span>
+            <h2 id="hockey-h">Hockey Stop</h2>
+            <span class="badge adv">Advanced</span>
+            <span class="flag">Emergency brake</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Hockey stop diagram: feet and blades from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="feet3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+                  .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+                  .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet3)}
+                  .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet3)}
+                  .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+                  .dot{fill:#d64541}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <g transform="translate(112,168) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(188,168) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+              <path d="M60,138 L28,120 M58,168 L22,168 M60,198 L28,216" class="spray"/>
+              <path d="M240,138 L272,120 M242,168 L278,168 M240,198 L272,216" class="spray"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+                    <figure class="book-photo">
+            <img src="assets/fig3-hockey.png" alt="Black-and-white book photo of a skater performing the hockey stop, body turned sideways with knees bent and arms out" width="709" height="815">
+            <figcaption>From the book — Figure 4.3</figcaption>
+          </figure>
+<div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Hips and shoulders stay square to your line of travel, shoulders held in a checked (counter-held) position. Arms remain straight out to the sides for the entire stop. Weight balanced slightly in front of the center of the blade, so the blades can swing sideways.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Glide forward on two feet with knees bent. Rise up slightly (knees un-bend), then turn both feet together to the side — at a full stop the feet sit at a <strong>90° angle</strong> to the body. As the feet turn, bend the knees again rapidly to drive force into the ice.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p><strong>Both blades</strong>, turned sideways so the edges bite and spray snow — this is what stops you fast.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>The most advanced stop and the one used most by both hockey and figure skaters. <strong>This is your emergency brake</strong> — use it to avoid a person or object when there's no time for anything else.</li>
+              <li>Practice turning to both the right and the left.</li>
+              <li><strong>Feel drill:</strong> twist in place from right to left, feet always moving together, finishing with feet pointing opposite to your shoulders and hips.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 4 -->
+        <section class="stop-card" id="one-footed-stop" aria-labelledby="onefoot-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">4</span>
+            <h2 id="onefoot-h">One-Footed Stop</h2>
+            <span class="badge adv">Advanced</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="One-footed stop diagram: feet and blades from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="feet4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+                  .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+                  .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#feet4)}
+                  .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#feet4)}
+                  .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+                  .dot{fill:#d64541}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="120" y1="88" x2="120" y2="52" class="arr"/>
+              <g transform="translate(108,185) rotate(90)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(222,108) rotate(35)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+                    <figure class="book-photo">
+            <img src="assets/fig4-onefoot.png" alt="Black-and-white book photo of a skater performing the one-footed stop, balanced on one skate with the other leg lifted out to the side" width="734" height="896">
+            <figcaption>From the book — Figure 4.4</figcaption>
+          </figure>
+<div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Identical to the hockey stop — same shoulder position (square, checked) and same arms straight out to the sides.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>A hockey stop on one foot only, turning to the right or the left. Lift either the front or the back foot; the foot that stays down turns sideways exactly as in a hockey stop. The free leg extends behind you.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p><strong>One blade only</strong> — the supporting foot, using the same edge action as the hockey stop. Requires solid control of both outside and inside edges first.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li><strong>Purely for show</strong> — never use it when the stop is urgent.</li>
+              <li>Learn the two-footed hockey stop first; the one-foot version is the same technique with a harder balance shift (the same shift as going from a two-foot glide to a one-foot glide).</li>
+              <li>Attempt it only after mastering outside and inside edges.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- COMPARISON -->
+        <section class="compare" aria-labelledby="compare-h">
+          <h2 id="compare-h">All four stops at a glance</h2>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Stop</th>
+                  <th scope="col">Feet</th>
+                  <th scope="col">Braking blade(s)</th>
+                  <th scope="col">Body key cue</th>
+                  <th scope="col">Speed of stop</th>
+                  <th scope="col">Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Snowplow</th>
+                  <td>Parallel → wedge (toes in, heels out)</td>
+                  <td>Both, pressing/skidding out</td>
+                  <td>Arms out, upright</td>
+                  <td>Slow–medium</td>
+                  <td>Beginner</td>
+                </tr>
+                <tr>
+                  <th scope="row">T-Stop</th>
+                  <td>Upside-down T</td>
+                  <td>Back foot drag (later: outside edge)</td>
+                  <td>Arms out, palms down, ribcage lifted</td>
+                  <td>Slow, graceful</td>
+                  <td>Beginner–intermediate</td>
+                </tr>
+                <tr class="hot-row">
+                  <th scope="row">Hockey stop</th>
+                  <td>Both turn 90° sideways</td>
+                  <td>Both edges bite together</td>
+                  <td>Shoulders square &amp; checked, fast knee bend</td>
+                  <td class="fast">Fastest — emergency</td>
+                  <td>Advanced</td>
+                </tr>
+                <tr>
+                  <th scope="row">One-footed</th>
+                  <td>One foot sideways, other lifted</td>
+                  <td>Single supporting blade</td>
+                  <td>Same as hockey stop</td>
+                  <td>Slow — for show</td>
+                  <td>Advanced</td>
+                </tr>
+                <tr>
+                  <th scope="row">One-foot snowplow (bonus)</th>
+                  <td>One straight, one turned in ~45°</td>
+                  <td>Inside edge of the braking foot</td>
+                  <td>Weight on gliding foot, knees bent</td>
+                  <td>Slow–medium</td>
+                  <td>Beginner</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Summarized from <em>The Complete Book of Figure Skating</em> by Carole Shulman, Chapter 4 (pp. 42–45).</p>
+      </footer>
+
+    </div>
+  </body>
+</html>

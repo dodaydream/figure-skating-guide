@@ -1,0 +1,1216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Figure Skating Turns &amp; Footwork — Quick Reference</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #eef5fa;
+        --surface: #ffffff;
+        --surface-soft: #f4f9fc;
+        --ink: #16324f;
+        --ink-soft: #33506e;
+        --muted: #54708c;
+        --line: #c9d6e4;
+        --ice: #dceefb;
+        --ice-deep: #bcd9f2;
+        --accent: #1d6fb8;
+        --warm: #c2501a;
+        --warm-strong: #a63f10;
+        --warm-bg: #fdeee1;
+        --warm-line: #f0b98d;
+        --badge-bg: #e3f0e2;
+        --badge-ink: #2c5a2e;
+        --badge-mid-bg: #fdf3d7;
+        --badge-mid-ink: #7a5b00;
+        --badge-adv-bg: #fdeee1;
+        --badge-adv-ink: #a63f10;
+        --chip-body: #23406b;
+        --chip-feet: #1d6fb8;
+        --chip-blade: #5a718c;
+        --chip-ink: #ffffff;
+        --shadow: 0 2px 10px rgba(22, 50, 79, 0.08), 0 12px 32px rgba(22, 50, 79, 0.06);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --bg: #0b1622;
+          --surface: #122335;
+          --surface-soft: #0f1e2f;
+          --ink: #e9f2f9;
+          --ink-soft: #c3d6e6;
+          --muted: #93a9bd;
+          --line: #2a435c;
+          --ice: #1a3249;
+          --ice-deep: #24455f;
+          --accent: #7db9ec;
+          --warm: #f0915a;
+          --warm-strong: #f5a06c;
+          --warm-bg: #38220f;
+          --warm-line: #7a4a24;
+          --badge-bg: #1d3826;
+          --badge-ink: #a5d6a9;
+          --badge-mid-bg: #3d3410;
+          --badge-mid-ink: #f0d47a;
+          --badge-adv-bg: #40260f;
+          --badge-adv-ink: #f5a06c;
+          --chip-body: #33507c;
+          --chip-feet: #2273b5;
+          --chip-blade: #51687f;
+          --shadow: 0 2px 10px rgba(0, 0, 0, 0.35), 0 12px 32px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.55;
+        -webkit-text-size-adjust: 100%;
+      }
+      .wrap {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 28px 20px 48px;
+      }
+
+      /* ---------- Header ---------- */
+      header { margin-bottom: 26px; }
+      h1 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 900;
+        font-size: clamp(1.9rem, 6vw, 2.9rem);
+        line-height: 1.12;
+        letter-spacing: -0.01em;
+        margin: 0 0 12px;
+      }
+      .intro {
+        font-size: 1.13rem;
+        color: var(--ink-soft);
+        margin: 0 0 22px;
+        max-width: 42em;
+      }
+      .golden {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        background: var(--warm-bg);
+        border: 2px solid var(--warm-line);
+        border-radius: 14px;
+        padding: 16px 18px;
+      }
+      .golden .rule-mark {
+        flex: 0 0 auto;
+        width: 34px;
+        height: 34px;
+        margin-top: 2px;
+      }
+      .golden p { margin: 0; font-size: 1.08rem; }
+      .golden .rule-label {
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--warm-strong);
+        margin-bottom: 3px;
+      }
+      .golden strong { color: var(--warm-strong); }
+
+      /* ---------- Picker ---------- */
+      .picker { margin: 30px 0 8px; }
+      .picker h2, .compare h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 700;
+        font-size: 1.45rem;
+        margin: 0 0 14px;
+      }
+      .picker-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .pick {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        background: var(--surface);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: var(--ink);
+        box-shadow: var(--shadow);
+      }
+      a.pick:hover, a.pick:focus-visible { border-color: var(--accent); }
+      .pick .when { color: var(--ink-soft); font-size: 1rem; line-height: 1.35; }
+      .pick .what {
+        font-weight: 700;
+        white-space: nowrap;
+        color: var(--accent);
+        font-size: 1.05rem;
+        text-align: right;
+      }
+      .pick .what .arrw { font-weight: 400; }
+      .diagram-note {
+        margin: 16px 2px 0;
+        font-size: 0.95rem;
+        color: var(--muted);
+        max-width: 46em;
+      }
+
+      /* ---------- Cards ---------- */
+      .skill-card {
+        background: var(--surface);
+        border: 1.5px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        padding: 24px 24px 26px;
+        margin-top: 30px;
+        scroll-margin-top: 16px;
+      }
+      .card-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 14px;
+        margin-bottom: 14px;
+      }
+      .card-head h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 700;
+        font-size: 1.65rem;
+        line-height: 1.15;
+        margin: 0;
+      }
+      .card-head .num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--ice);
+        color: var(--ink);
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 900;
+        font-size: 1.15rem;
+        flex: 0 0 auto;
+      }
+      .badge {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 4px 11px;
+        border-radius: 999px;
+        background: var(--badge-bg);
+        color: var(--badge-ink);
+      }
+      .badge.mid { background: var(--badge-mid-bg); color: var(--badge-mid-ink); }
+      .badge.adv { background: var(--badge-adv-bg); color: var(--badge-adv-ink); }
+      .card-intro {
+        font-size: 1.05rem;
+        color: var(--ink-soft);
+        margin: 0 0 20px;
+        max-width: 44em;
+      }
+      .card-intro strong { color: var(--ink); }
+
+      /* ---------- Keyframe strip: three beats of the turn ---------- */
+      .keyframes {
+        margin: 0 0 20px;
+        background: #ffffff;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 12px;
+      }
+      .keyframes .strip {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+      .keyframes .beat img { display: block; width: 100%; height: auto; }
+      .keyframes .beat .beat-label {
+        display: block;
+        text-align: center;
+        margin-top: 6px;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #5a718c;
+      }
+      .keyframes figcaption {
+        text-align: center;
+        font-size: 0.88rem;
+        color: var(--muted);
+        margin-top: 10px;
+      }
+
+      /* ---------- Book reference photo ---------- */
+      .book-photo {
+        margin: 0 0 20px;
+        text-align: center;
+      }
+      .book-photo img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 290px;
+        height: auto;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        background: #ffffff;
+        filter: grayscale(1);
+      }
+      .book-photo.wide img { max-width: 560px; }
+      .photo-pair {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin: 0 0 20px;
+      }
+      .photo-pair .book-photo { margin: 0; }
+      .photo-pair .book-photo img { max-width: 100%; }
+      .book-photo.watch .video-embed {
+        position: relative;
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        aspect-ratio: 16 / 9;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        background: #000;
+      }
+      .book-photo.watch .video-embed iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+      .book-photo figcaption {
+        margin-top: 8px;
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+      .book-photo figcaption a { color: var(--muted); text-decoration: none; }
+      .book-photo figcaption a:hover, .book-photo figcaption a:focus-visible { color: var(--accent); text-decoration: underline; }
+
+      .rows { display: grid; gap: 14px; margin: 0 0 20px; }
+      .row {
+        display: grid;
+        grid-template-columns: 74px 1fr;
+        gap: 14px;
+        align-items: start;
+      }
+      .row.pattern { grid-template-columns: 128px 1fr; }
+      .row .tag {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--chip-ink);
+        border-radius: 8px;
+        padding: 5px 4px;
+        margin-top: 3px;
+      }
+      .tag.t-body { background: var(--chip-body); }
+      .tag.t-feet { background: var(--chip-feet); }
+      .tag.t-blade { background: var(--chip-blade); }
+      .tag.t-pattern { background: var(--chip-body); letter-spacing: 0.06em; }
+      .row p { margin: 0; color: var(--ink-soft); }
+      .row p strong { color: var(--ink); }
+
+      .tips {
+        background: var(--surface-soft);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 16px 18px 8px;
+        margin-bottom: 20px;
+      }
+      .tips:last-child { margin-bottom: 0; }
+      .tips h3 {
+        margin: 0 0 8px;
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .tips ul { margin: 0; padding: 0; list-style: none; }
+      .tips li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        color: var(--ink-soft);
+      }
+      .tips li::before {
+        content: "";
+        position: absolute;
+        left: 2px;
+        top: 0.52em;
+        width: 8px;
+        height: 8px;
+        border-radius: 2px;
+        background: var(--ice-deep);
+        transform: rotate(45deg);
+      }
+      .tips li strong { color: var(--ink); }
+
+      /* ---------- Comparison table ---------- */
+      .compare { margin-top: 40px; }
+      .table-scroll {
+        overflow-x: auto;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        -webkit-overflow-scrolling: touch;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 720px;
+        font-size: 0.98rem;
+      }
+      th, td {
+        text-align: left;
+        padding: 12px 14px;
+        vertical-align: top;
+        border-bottom: 1px solid var(--line);
+      }
+      thead th {
+        background: var(--ice);
+        color: var(--ink);
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      tbody th { font-weight: 700; color: var(--ink); }
+      tbody td { color: var(--ink-soft); }
+      tbody tr:last-child th, tbody tr:last-child td { border-bottom: none; }
+
+      footer {
+        margin-top: 36px;
+        padding-top: 18px;
+        border-top: 1.5px solid var(--line);
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      footer p { margin: 0; }
+
+      @media (max-width: 620px) {
+        body { font-size: 17px; }
+        .wrap { padding: 20px 14px 40px; }
+        .picker-grid { grid-template-columns: 1fr; }
+        .pick .what { white-space: normal; }
+        .skill-card { padding: 18px 16px 20px; }
+        .row { grid-template-columns: 62px 1fr; gap: 10px; }
+        .row.pattern { grid-template-columns: 104px 1fr; }
+        .keyframes { padding: 8px; }
+        .keyframes .strip { gap: 6px; }
+        .keyframes .beat .beat-label { font-size: 0.68rem; letter-spacing: 0.05em; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+
+      <header>
+        <h1>Figure Skating Turns &amp; Footwork — Quick Reference</h1>
+        <p class="intro">Turns are how skating changes direction without losing flow — and footwork is where the turns become a performance. From Chapter 6 of <em>The Complete Book of Figure Skating</em>: three turns, double threes, Mohawks, Choctaws, brackets, counters, rockers, and the step sequences that link them.</p>
+        <div class="golden" role="note">
+          <svg class="rule-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2 L14.6 9.4 L22 12 L14.6 14.6 L12 22 L9.4 14.6 L2 12 L9.4 9.4 Z" fill="#c2501a"/></svg>
+          <p><span class="rule-label">The naming rule</span>Every turn changes direction. What <strong>else</strong> changes names the turn — a <strong>three turn</strong> changes edge, a <strong>Mohawk</strong> changes feet, a <strong>Choctaw</strong> changes both, a <strong>bracket</strong> changes edge but turns against the circle, and a <strong>counter</strong> or <strong>rocker</strong> changes neither: same edge, new circle.</p>
+        </div>
+      </header>
+
+      <nav class="picker" aria-label="Which turn when?">
+        <h2>Which turn when?</h2>
+        <div class="picker-grid">
+          <a class="pick" href="#inside-open-mohawk">
+            <span class="when">Your first front-to-back turn</span>
+            <span class="what">Inside Open Mohawk <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#three-turns">
+            <span class="when">Turn on one foot, no foot change</span>
+            <span class="what">Three Turns <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#double-threes">
+            <span class="when">Two threes, no step down</span>
+            <span class="what">Double Threes <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#choctaws">
+            <span class="when">A step that changes edge too</span>
+            <span class="what">Choctaws <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#brackets">
+            <span class="when">The turn that fights the circle</span>
+            <span class="what">Brackets <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#counters">
+            <span class="when">Same edge, new circle, turn faces out</span>
+            <span class="what">Counters <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#rockers">
+            <span class="when">Same edge, new circle, turn faces in</span>
+            <span class="what">Rockers <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#footwork">
+            <span class="when">Put it all together</span>
+            <span class="what">Footwork <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+        </div>
+        <p class="diagram-note">How to read the diagrams: each turn is shown in three keyframes — <strong>1 · Entry, 2 · The turn, 3 · Exit</strong> — looking down at your own feet. Red arrow = direction of travel; red dot = the edge doing the work; pale blue = the print left on the ice; a dashed boot is the free foot, lifted off the ice.</p>
+      </nav>
+
+      <main>
+        <!-- CARD 1 -->
+        <section class="skill-card" id="three-turns" aria-labelledby="three-turns-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">1</span>
+            <h2 id="three-turns-h">Three Turns</h2>
+            <span class="badge">Foundation</span>
+          </div>
+          <p class="card-intro">One foot, on a curve, turning 180° — front to back or back to front. It changes <strong>edge and direction, never feet</strong>, and the print it leaves looks like the numeral <strong>3</strong>, its cusp pointing into the circle.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/turn1-three-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — the skating boot gliding forward on its entry edge and arc, free foot dashed behind" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/turn1-three-k2-feet.svg" alt="Keyframe 2, the turn: the boot caught mid-rotation at the cusp of the three, sideways on the front of the blade" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/turn1-three-k3-feet.svg" alt="Keyframe 3, exit: the full ice print shaped like a 3, the boot gliding out backward on the new edge, free foot dashed in its checked finish" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig61-three-turn-print.png" alt="Book diagram: the print a three turn leaves on the ice, shaped like the numeral 3" width="850" height="259" loading="lazy">
+            <figcaption>From the book — Figure 6.1: the three turn&rsquo;s print on the ice</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/EjdKDPSpAhM" title="How to do FORWARD 3 TURNS in Figure Skating — Coach Mary Figure Skating" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=EjdKDPSpAhM" target="_blank" rel="noopener noreferrer">▶ Watch: How to do FORWARD 3 TURNS in Figure Skating — Coach Mary Figure Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="tips">
+            <h3>The four variants</h3>
+            <ul>
+              <li>Forward outside → back inside</li>
+              <li>Forward inside → back outside</li>
+              <li>Back outside → forward inside</li>
+              <li>Back inside → forward outside</li>
+            </ul>
+          </div>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Rotate the arms and upper body over the skating foot, then <strong>check</strong> — stop the rotation dead at the top of the turn or the exit edge spins away. Skating knee bent on entry, rises through the turn, bent again on exit. Head turns with the body into the new direction.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>The free foot stays over the print the whole way — <strong>behind</strong> the skating foot (to the heel) for forward threes, <strong>in front</strong> for back threes.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Balance starts just back of centre on a forward edge and rocks forward to just behind the first toe pick at the turn — never onto the pick. On back threes it starts just forward of centre and rocks back.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Learn it in this order: at the barrier → two-footed on a circle → one foot. A forward outside three (RFO → RBI) is the classic first one.</li>
+              <li>For the back inside three, think &ldquo;sweep the rainbow&rdquo; with the free foot.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 2 -->
+        <section class="skill-card" id="double-threes" aria-labelledby="double-threes-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">2</span>
+            <h2 id="double-threes-h">Double Threes</h2>
+            <span class="badge mid">Intermediate</span>
+          </div>
+          <p class="card-intro">Two three turns linked on the same foot with <strong>no step down in between</strong>: forward → back → forward again — e.g. an RFO three to RBI, straight into a second three back to RFO.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/turn2-double-three-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — the skating boot gliding forward on its entry edge, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/turn2-double-three-k2-feet.svg" alt="Keyframe 2, the turn: the boot at the first cusp, mid-rotation on the front of the blade" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/turn2-double-three-k3-feet.svg" alt="Keyframe 3, exit: the ice print of two linked threes, the boot gliding forward again after the second turn" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn. This strip reads left to right along the print.</figcaption>
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig62-double-three-circle.png" alt="Book diagram: a double three skated on a circle, its two cusps dividing the circle into thirds" width="826" height="821" loading="lazy">
+            <figcaption>From the book — Figure 6.2: the double three on a circle</figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Everything from the three turn, plus discipline: the whole skill is <strong>checking the exit of the first turn</strong> before you allow the second rotation to start. Rushed doubles wobble; checked doubles flow.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>One foot throughout; the free foot never touches down and stays over the print.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The edge flips with each turn — outside → inside → outside (or the reverse) — balance rocking to the front of the blade at each cusp.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>On a circle, the two turns sit in equal thirds — start at 6 o&rsquo;clock, turn at 10 and at 2, cusps pointing at the centre like a Y. If the rotation won&rsquo;t behave, practise on two feet, or on a straight line, before going back to the circle.</li>
+              <li><strong>Drop three</strong> (dance term): a forward outside three with an instant step — the feet come together at the point of the three <em>without</em> the free foot touching down, both knees bend, and the new foot pushes off onto a back outside edge.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 3 -->
+        <section class="skill-card" id="inside-open-mohawk" aria-labelledby="inside-open-mohawk-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">3</span>
+            <h2 id="inside-open-mohawk-h">Inside Open Mohawk</h2>
+            <span class="badge mid">Beginner–Intermediate</span>
+          </div>
+          <p class="card-intro">The most common turn in skating — the everyday way to go from forward to backward. A two-foot turn: it changes <strong>feet and direction, not edge</strong> (right forward inside → left back inside). &ldquo;Open&rdquo; because the free foot is placed heel-to-instep and the hips finish open, free foot behind.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/mohawk-open-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — gliding forward on an inside edge, free foot dashed behind" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-open-k2-feet.svg" alt="Keyframe 2, the turn: the step itself — both feet on the ice, the free foot placed heel to instep" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-open-k3-feet.svg" alt="Keyframe 3, exit: gliding backward on the new foot's inside edge, the old foot dashed behind in the open finish" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig63-inside-open-mohawk-ab.png" alt="Black-and-white book photos (a) and (b): a skater bringing the free foot heel to instep for the inside open Mohawk" width="1300" height="634" loading="lazy">
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig63-inside-open-mohawk-c.png" alt="Black-and-white book photo (c): the skater stepped down and gliding backward after the inside open Mohawk" width="947" height="1011" loading="lazy">
+            <figcaption>From the book — Figure 6.3: the inside open Mohawk, (a)–(c)</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/HRyuif5OU74" title="How to do a MOHAWK TURN in Figure Skating — Coach Mary Figure Skating" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=HRyuif5OU74" target="_blank" rel="noopener noreferrer">▶ Watch: How to do a MOHAWK TURN in Figure Skating — Coach Mary Figure Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Shoulders rotate into the turn, then check; step down onto a bent knee. Hips stay open — at the exit the new free foot is behind you.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>The free foot starts <strong>behind</strong> the skating foot; bring its <strong>heel to the instep</strong> of the skating foot, then step down toward the ball of the foot.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Inside edge before, inside edge after — only the foot and the direction change.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Practise the placement standing at the barrier (heel-to-heel stepping). A spread-eagle two-foot step teaches your hips the open position.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 4 -->
+        <section class="skill-card" id="inside-closed-mohawk" aria-labelledby="inside-closed-mohawk-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">4</span>
+            <h2 id="inside-closed-mohawk-h">Inside Closed Mohawk</h2>
+            <span class="badge mid">Intermediate</span>
+          </div>
+          <p class="card-intro">The same turn as the inside open Mohawk with one change: the placement. &ldquo;Closed&rdquo; — <strong>instep-to-heel</strong>, hips closed, free foot finishing in front.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/mohawk-closed-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — gliding forward on an inside edge, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-closed-k2-feet.svg" alt="Keyframe 2, the turn: the step itself — both feet on the ice, the free foot placed instep to heel" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-closed-k3-feet.svg" alt="Keyframe 3, exit: gliding backward on the new foot's inside edge, the old foot dashed in front in the closed finish" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig64-inside-closed-mohawk-ab.png" alt="Black-and-white book photos (a) and (b): a skater bringing the free foot instep to heel for the inside closed Mohawk" width="1300" height="662" loading="lazy">
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig64-inside-closed-mohawk-c.png" alt="Black-and-white book photo (c): the skater stepped down and gliding backward after the inside closed Mohawk, free foot in front" width="941" height="991" loading="lazy">
+            <figcaption>From the book — Figure 6.4: the inside closed Mohawk, (a)–(c)</figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Same rotation and check as the open Mohawk; the difference is where the new foot lands and the closed hip at the finish.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Place the <strong>instep of the free foot to the heel</strong> of the skating foot. After the step, the original skating foot keeps gliding forward — it finishes <strong>in front</strong> of you, not behind.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Inside edge throughout, on both feet.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>If your free foot keeps ending up behind, you&rsquo;re doing the open one — check the placement: heel-to-instep = open, instep-to-heel = closed.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 5 -->
+        <section class="skill-card" id="outside-open-mohawk" aria-labelledby="outside-open-mohawk-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">5</span>
+            <h2 id="outside-open-mohawk-h">Outside Open Mohawk</h2>
+            <span class="badge mid">Intermediate</span>
+          </div>
+          <p class="card-intro">The open Mohawk on the outside edge: <strong>right forward outside → left back outside</strong> — the same step as the inside open Mohawk, on the other edge (the keyframes below are the same strip).</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/mohawk-open-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — gliding forward on an outside edge, free foot dashed behind" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-open-k2-feet.svg" alt="Keyframe 2, the turn: the step itself — both feet on the ice, the free foot placed heel to instep" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-open-k3-feet.svg" alt="Keyframe 3, exit: gliding backward on the new foot's outside edge, the old foot dashed behind in the open finish" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig65-outside-open-mohawk-a.png" alt="Black-and-white book photo (a): a skater on the entry edge of the outside open Mohawk" width="994" height="1024" loading="lazy">
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig65-outside-open-mohawk-bc.png" alt="Black-and-white book photos (b) and (c): the heel-to-instep placement and step down of the outside open Mohawk" width="1300" height="655" loading="lazy">
+            <figcaption>From the book — Figure 6.5: the outside open Mohawk, (a)–(c)</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/Dtobsp_f-XM" title="How to do an outside MOHAWK TURN in Figure Skating - Part 2 — Coach Mary Figure Skating" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=Dtobsp_f-XM" target="_blank" rel="noopener noreferrer">▶ Watch: How to do an outside MOHAWK TURN in Figure Skating - Part 2 — Coach Mary Figure Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Right arm in front, left arm back; the right hip leads into the turn. Shoulders rotate in, then tighten to a checked position on the exit.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Free foot starts <strong>behind</strong> on the entry; its <strong>heel is brought to the instep</strong> of the skating foot; step down toward the ball of the foot — mind you don&rsquo;t step on your own blade.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Outside edge before and after; land the new foot on a bent knee on the back outside edge, free foot held back over the tracing.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Learn the step at the barrier first, right-to-left and left-to-right, then try it two-footed on the ice before one-footed.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 6 -->
+        <section class="skill-card" id="outside-closed-mohawk" aria-labelledby="outside-closed-mohawk-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">6</span>
+            <h2 id="outside-closed-mohawk-h">Outside Closed Mohawk</h2>
+            <span class="badge mid">Intermediate–Advanced</span>
+          </div>
+          <p class="card-intro">The closed version on the outside edge: <strong>forward outside → back outside</strong>, instep-to-heel placement, free foot finishing forward.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/mohawk-closed-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — gliding forward on an outside edge, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-closed-k2-feet.svg" alt="Keyframe 2, the turn: the step itself — both feet on the ice, the free foot placed instep to heel" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/mohawk-closed-k3-feet.svg" alt="Keyframe 3, exit: gliding backward on the new foot's outside edge, the old foot dashed in front in the closed finish" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig66-outside-closed-mohawk-a.png" alt="Black-and-white book photo (a): a skater on the entry edge of the outside closed Mohawk" width="992" height="994" loading="lazy">
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig66-outside-closed-mohawk-bc.png" alt="Black-and-white book photos (b) and (c): the instep-to-heel placement and step down of the outside closed Mohawk" width="1299" height="673" loading="lazy">
+            <figcaption>From the book — Figure 6.6: the outside closed Mohawk, (a)–(c)</figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Follows the open Mohawk&rsquo;s procedure exactly, except the finish — closed hip, free foot carried forward on the finished edge.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p><strong>Instep of the free foot to the heel</strong> of the skating foot; the old skating foot continues forward after the step.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Outside edge throughout.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips — the rest of the Mohawk family</h3>
+            <ul>
+              <li><strong>Back Mohawk:</strong> the simple step from a back edge to the <em>same</em> edge forward, with no change of circle (if the edge or circle changes, it&rsquo;s a Choctaw).</li>
+              <li><strong>Drop Mohawk:</strong> brings the feet together right after the turn, making three steps of it — it appears in the eight-step Mohawk.</li>
+              <li><strong>Swing Mohawk:</strong> swings the free foot past the skating foot before placing it.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 7 -->
+        <section class="skill-card" id="choctaws" aria-labelledby="choctaws-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">7</span>
+            <h2 id="choctaws-h">Choctaws</h2>
+            <span class="badge adv">Advanced</span>
+          </div>
+          <p class="card-intro">The step turn that changes everything: <strong>feet, direction, and edge</strong> (e.g. right forward outside → left back inside). The free foot is placed to the heel of the skating foot, the weight rocks to the ball of the foot, and the hips twist through the change of circle.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/choctaw-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — gliding forward on an outside edge, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/choctaw-k2-feet.svg" alt="Keyframe 2, the turn: the step itself — both feet on the ice at the placement, hips twisting through the change of circle" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/choctaw-k3-feet.svg" alt="Keyframe 3, exit: gliding backward on the new foot, on the opposite edge and a new circle" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig67-outside-choctaw-ab.png" alt="Black-and-white book photos (a) and (b): a skater setting up the outside Choctaw" width="1300" height="671" loading="lazy">
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig67-outside-choctaw-c.png" alt="Black-and-white book photo (c): the skater stepped onto the new circle after the outside Choctaw" width="992" height="1009" loading="lazy">
+            <figcaption>From the book — Figure 6.7: the outside Choctaw, (a)–(c)</figcaption>
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig68-inside-choctaw-ab.png" alt="Black-and-white book photos (a) and (b): a skater setting up the inside Choctaw" width="1299" height="660" loading="lazy">
+            <figcaption>From the book — Figure 6.8: the inside Choctaw, (a)–(b)</figcaption>
+          </figure>
+          <div class="photo-pair">
+            <figure class="book-photo">
+              <img src="assets/fig69-open-choctaw.png" alt="Black-and-white book photo close-up: the open Choctaw placement, free foot at the toe of the skating foot" width="1001" height="1073" loading="lazy">
+              <figcaption>From the book — Figure 6.9: open Choctaw — foot at the toe</figcaption>
+            </figure>
+            <figure class="book-photo">
+              <img src="assets/fig610-closed-choctaw.png" alt="Black-and-white book photo close-up: the closed Choctaw placement, free foot at the heel of the skating foot" width="991" height="1067" loading="lazy">
+              <figcaption>From the book — Figure 6.10: closed Choctaw — foot at the heel</figcaption>
+            </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/g22TnfG8qOM" title="How To Do Forward Outside Choctaws (S-Step Tutorial) — Coach Julia" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=g22TnfG8qOM" target="_blank" rel="noopener noreferrer">▶ Watch: How To Do Forward Outside Choctaws (S-Step Tutorial) — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Slight push as you turn; the hips do the twisting. On the inside Choctaw (left forward inside → right back outside, the one in the Blues) the shoulders start checking <em>before</em> the free foot is placed.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p><strong>Open Choctaw</strong> — free foot placed at the <strong>toe</strong> of the skating foot; the new free foot finishes behind, hip checked back (the Kilian position). <strong>Closed Choctaw</strong> — free foot placed at the <strong>heel</strong>; the new free foot extends forward, hip pressed forward (Blues, Rocker Foxtrot).</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The edge flips: outside → inside or inside → outside, and you leave on a new circle.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Practise both feet (in dance, the right-foot Choctaw appears in the man&rsquo;s Tango Romantica step). Learn it at the barrier first.</li>
+              <li>A <strong>junior Choctaw</strong> is the same step placed wide; a <strong>swing Choctaw</strong> swings the free foot past before placing (Quickstep); a <strong>back Choctaw</strong> goes from a back edge to the <em>opposite</em> edge forward — if the circle doesn&rsquo;t change, it&rsquo;s only a back Mohawk.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 8 -->
+        <section class="skill-card" id="brackets" aria-labelledby="brackets-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">8</span>
+            <h2 id="brackets-h">Brackets</h2>
+            <span class="badge adv">Advanced</span>
+          </div>
+          <p class="card-intro">The three turn&rsquo;s opposite twin. One foot, changes edge and direction like a three — but where a three rotates <strong>into</strong> the circle, a bracket turns <strong>outside</strong> it. The rotation is exactly reversed, and the print&rsquo;s cusp points away from the circle&rsquo;s centre.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/bracket-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — the skating boot gliding forward on its entry edge and arc, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/bracket-k2-feet.svg" alt="Keyframe 2, the turn: the boot caught mid-rotation against the circle, sideways on the front of the blade" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/bracket-k3-feet.svg" alt="Keyframe 3, exit: the bracket print with its cusp pointing out of the circle, the boot gliding out backward on the new edge" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo wide">
+            <img src="assets/fig611-bracket-print.png" alt="Book diagram: the print a bracket leaves on the ice, its cusp pointing away from the circle's centre" width="893" height="389" loading="lazy">
+            <figcaption>From the book — Figure 6.11: the bracket&rsquo;s print on the ice</figcaption>
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig612-bracket-circle.png" alt="Book diagram: a bracket skated on a circle" width="232" height="452" loading="lazy">
+            <figcaption>From the book — Figure 6.12: the bracket on a circle</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/xPqP2LQxwmg" title="How To Do Bracket Turns in Figure Skates — Coach Julia" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=xPqP2LQxwmg" target="_blank" rel="noopener noreferrer">▶ Watch: How To Do Bracket Turns in Figure Skates — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Rotate the upper body tightly <em>outside</em> the circle — one arm pulled across in front, the other countering behind, torso pressing against the arms. <strong>Check at the apex.</strong> Your head keeps looking in the direction of travel the whole time.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Forward inside bracket: free foot starts <strong>in front</strong>, lifts slightly to help the turn, then settles back to the heel of the skating foot on exit. Forward outside bracket: free foot starts at the <strong>heel, behind</strong>.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Weight starts back of centre and rocks forward to just behind the bottom pick as the knee straightens — the heel lifts and swings the blade from a forward edge to the opposite back edge. Back brackets rock the other way, lifting the front of the blade.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Practise the turn and the free-foot action at the barrier, then two-footed on a circle.</li>
+              <li>The <strong>advanced back bracket</strong> adds a scissor: the free foot swings forward as the skating foot moves back, for depth and counter.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 9 -->
+        <section class="skill-card" id="counters" aria-labelledby="counters-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">9</span>
+            <h2 id="counters-h">Counters</h2>
+            <span class="badge adv">Advanced</span>
+          </div>
+          <p class="card-intro">One foot, and the edge never changes: <strong>forward inside → back inside, forward outside → back outside</strong>. Like a change of edge with a turn in the middle — except the turn faces into the <strong>new</strong> circle, taking you off your original circle entirely.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/counter-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — the skating boot gliding forward on its entry edge and arc, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/counter-k2-feet.svg" alt="Keyframe 2, the turn: the boot caught mid-rotation, turning to face the new circle on the same edge" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/counter-k3-feet.svg" alt="Keyframe 3, exit: the boot gliding out backward on the same edge, now travelling on a new circle" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig613-counter-circle.png" alt="Book diagram: a counter skated across two circles, the edge unchanged through the turn" width="237" height="610" loading="lazy">
+            <figcaption>From the book — Figure 6.13: the counter, same edge onto a new circle</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/b-t7iOyjGHM" title="Learn To Do Backward Counter Turns - In Figure Skates! — Coach Julia" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=b-t7iOyjGHM" target="_blank" rel="noopener noreferrer">▶ Watch: Learn To Do Backward Counter Turns - In Figure Skates! — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Bracket-style mechanics: rotate <em>outside</em> the original circle, upper body tight, arms countering, <strong>check at the apex</strong>, head looking ahead into the new circle.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>The free foot <strong>scissors</strong> — front to back on forward counters, finishing trailing over the new print. On back counters it kicks into the circle (the new one for back inside, the original for back outside) and returns to the heel.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Same edge start to finish. Weight rocks back-of-centre → just behind the bottom pick (forward counters) as the knee straightens, so the heel lifts and rotates through without scraping.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Barrier first, then two feet on a circle.</li>
+              <li>If you find you&rsquo;ve changed edge, you&rsquo;ve skated a bracket or a three — a counter keeps its edge at all costs.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 10 -->
+        <section class="skill-card" id="rockers" aria-labelledby="rockers-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">10</span>
+            <h2 id="rockers-h">Rockers</h2>
+            <span class="badge adv">Advanced</span>
+          </div>
+          <p class="card-intro">The counter&rsquo;s mirror image. Same edges in and out, same change of circle — but the turn in the middle faces into the <strong>original</strong> circle, rotating <em>into</em> the curve like a three turn instead of against it.</p>
+          <figure class="keyframes">
+            <div class="strip">
+              <div class="beat">
+                <img src="assets/rocker-k1-feet.svg" alt="Keyframe 1, entry: feet and blades from above — the skating boot gliding forward on its entry edge and arc, free foot dashed" width="300" height="300">
+                <span class="beat-label">1 · Entry</span>
+              </div>
+              <div class="beat">
+                <img src="assets/rocker-k2-feet.svg" alt="Keyframe 2, the turn: the boot caught mid-rotation, turning into the original circle on the same edge" width="300" height="300">
+                <span class="beat-label">2 · The turn</span>
+              </div>
+              <div class="beat">
+                <img src="assets/rocker-k3-feet.svg" alt="Keyframe 3, exit: the boot gliding out backward on the same edge, now travelling on a new circle" width="300" height="300">
+                <span class="beat-label">3 · Exit</span>
+              </div>
+            </div>
+            <figcaption>Feet &amp; blades, from above — the three beats of the turn.</figcaption>
+          </figure>
+          <figure class="book-photo">
+            <img src="assets/fig614-rocker-circle.png" alt="Book diagram: a rocker skated across two circles, the edge unchanged through the turn" width="239" height="613" loading="lazy">
+            <figcaption>From the book — Figure 6.14: the rocker, same edge onto a new circle</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/qy8uL8KuReA" title="Learn Forward Outside Rocker Turns - On Ice! — Coach Julia" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=qy8uL8KuReA" target="_blank" rel="noopener noreferrer">▶ Watch: Learn Forward Outside Rocker Turns - On Ice! — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Rotate into the circle, upper body tight at the shoulder of the turn, arms countering against the hips at the apex to hold the check. Head turns to look into the new circle.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>The free foot scissors — front to back for forward rockers, back to front for back rockers — and returns over the print at the exit, to the heel of the skating foot.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Same edge throughout (forward inside → back inside; forward outside → back outside). Weight rocks along the blade exactly as in the counter — forward rockers toward the front of the blade, back rockers toward the back, so the free end lifts and swings through.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Counter or rocker? Ask one question: <em>which circle does the turn face?</em> Into the new circle = counter; into the original circle = rocker. Everything else about the pair is nearly identical.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 11 -->
+        <section class="skill-card" id="footwork" aria-labelledby="footwork-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">11</span>
+            <h2 id="footwork-h">Footwork</h2>
+            <span class="badge">All levels</span>
+          </div>
+          <p class="card-intro">Turns plus freestyle moves, combined — <strong>&ldquo;the glue that holds a program together.&rdquo;</strong> A step sequence is built in one of three patterns, and judges read the rulebook words literally: <strong>bold, at least, full, complete, must, not less</strong>.</p>
+          <figure class="book-photo">
+            <img src="assets/hamilton-footwork.png" alt="Book photo: Scott Hamilton performing a footwork sequence" width="1171" height="1660" loading="lazy">
+            <figcaption>From the book — &lsquo;Master the Move&rsquo;: Scott Hamilton&rsquo;s footwork (photo © Anthony Neste)</figcaption>
+          </figure>
+          <figure class="book-photo watch">
+            <div class="video-embed">
+              <iframe src="https://www.youtube-nocookie.com/embed/QUpi35Z-3Mw" title="Beginner Footwork Sequence using Three-Turns - Figure Skating Tutorial — Coach Julia" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <figcaption><a href="https://www.youtube.com/watch?v=QUpi35Z-3Mw" target="_blank" rel="noopener noreferrer">▶ Watch: Beginner Footwork Sequence using Three-Turns - Figure Skating Tutorial — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row pattern">
+              <span class="tag t-pattern">Straight line</span>
+              <p>End to end of the rink, down the full long axis or corner to corner.</p>
+            </div>
+            <div class="row pattern">
+              <span class="tag t-pattern">Circular</span>
+              <p>One complete circle or oval using the full width of the ice.</p>
+            </div>
+            <div class="row pattern">
+              <span class="tag t-pattern">Serpentine</span>
+              <p>End to end in at least two bold curves, each no less than half the rink&rsquo;s width. (Spiral sequences follow the same pattern rules.)</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>What makes it good</h3>
+            <ul>
+              <li>Carriage and style; speed and flow; quick, sure, deep, clean edges; rhythm and timing with the music; changes of rotational direction; highs and lows.</li>
+              <li>A variety of complex turns — threes, Mohawks, Choctaws, brackets, counters, rockers — linked with spirals, lunges, half jumps, and creative steps.</li>
+            </ul>
+          </div>
+          <div class="tips">
+            <h3>Master the Move — Scott Hamilton&rsquo;s lesson</h3>
+            <ul>
+              <li>Creativity, expression, and personality count alongside strong edges — movements in both directions, surprise elements, clean quick sure edges, and skating <em>to</em> the music, not just on it. Character is what separates doing the steps from performing them.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- COMPARISON -->
+        <section class="compare" aria-labelledby="compare-h">
+          <h2 id="compare-h">All seven turns at a glance</h2>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Turn</th>
+                  <th scope="col">Feet</th>
+                  <th scope="col">Changes edge?</th>
+                  <th scope="col">Changes feet?</th>
+                  <th scope="col">Rotation</th>
+                  <th scope="col">Print clue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Three turn</th>
+                  <td>One</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>Into the circle</td>
+                  <td>A &ldquo;3&rdquo;, cusp pointing in</td>
+                </tr>
+                <tr>
+                  <th scope="row">Double three</th>
+                  <td>One</td>
+                  <td>Yes, twice</td>
+                  <td>No</td>
+                  <td>Into the circle, twice</td>
+                  <td>Two linked 3s — thirds of a circle, like a Y</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mohawk</th>
+                  <td>Two (a step)</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                  <td>—</td>
+                  <td>One smooth arc, no cusp</td>
+                </tr>
+                <tr>
+                  <th scope="row">Choctaw</th>
+                  <td>Two (a step)</td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                  <td>Hips twist</td>
+                  <td>Steps onto a new circle</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bracket</th>
+                  <td>One</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td><strong>Outside</strong> the circle</td>
+                  <td>Cusp pointing out</td>
+                </tr>
+                <tr>
+                  <th scope="row">Counter</th>
+                  <td>One</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Outside the original circle</td>
+                  <td>Turn faces the new circle</td>
+                </tr>
+                <tr>
+                  <th scope="row">Rocker</th>
+                  <td>One</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Into the original circle</td>
+                  <td>Turn faces the original circle</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Source: <em>The Complete Book of Figure Skating</em> by Carole Shulman, Chapter 6 — Turns and Footwork (book pp. 69–94). Companion quick references: Stops · Stroking · Edges &amp; Crossovers (Chapter 4).</p>
+      </footer>
+
+    </div>
+  </body>
+</html>

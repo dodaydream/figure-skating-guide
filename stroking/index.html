@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="data:," />
+    <title>Figure Skating Stroking — Quick Reference</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #eef5fa;
+        --surface: #ffffff;
+        --surface-soft: #f4f9fc;
+        --ink: #16324f;
+        --ink-soft: #33506e;
+        --muted: #54708c;
+        --line: #c9d6e4;
+        --ice: #dceefb;
+        --ice-deep: #bcd9f2;
+        --accent: #1d6fb8;
+        --warm: #c2501a;
+        --warm-strong: #a63f10;
+        --warm-bg: #fdeee1;
+        --warm-line: #f0b98d;
+        --badge-bg: #e3f0e2;
+        --badge-ink: #2c5a2e;
+        --badge-mid-bg: #fdf3d7;
+        --badge-mid-ink: #7a5b00;
+        --badge-adv-bg: #fdeee1;
+        --badge-adv-ink: #a63f10;
+        --chip-body: #23406b;
+        --chip-feet: #1d6fb8;
+        --chip-blade: #5a718c;
+        --chip-ink: #ffffff;
+        --shadow: 0 2px 10px rgba(22, 50, 79, 0.08), 0 12px 32px rgba(22, 50, 79, 0.06);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          color-scheme: dark;
+          --bg: #0b1622;
+          --surface: #122335;
+          --surface-soft: #0f1e2f;
+          --ink: #e9f2f9;
+          --ink-soft: #c3d6e6;
+          --muted: #93a9bd;
+          --line: #2a435c;
+          --ice: #1a3249;
+          --ice-deep: #24455f;
+          --accent: #7db9ec;
+          --warm: #f0915a;
+          --warm-strong: #f5a06c;
+          --warm-bg: #38220f;
+          --warm-line: #7a4a24;
+          --badge-bg: #1d3826;
+          --badge-ink: #a5d6a9;
+          --badge-mid-bg: #3d3410;
+          --badge-mid-ink: #f0d47a;
+          --badge-adv-bg: #40260f;
+          --badge-adv-ink: #f5a06c;
+          --chip-body: #33507c;
+          --chip-feet: #2273b5;
+          --chip-blade: #51687f;
+          --shadow: 0 2px 10px rgba(0, 0, 0, 0.35), 0 12px 32px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.55;
+        -webkit-text-size-adjust: 100%;
+      }
+      .wrap {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 28px 20px 48px;
+      }
+
+      /* ---------- Header ---------- */
+      header { margin-bottom: 26px; }
+      h1 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 900;
+        font-size: clamp(1.9rem, 6vw, 2.9rem);
+        line-height: 1.12;
+        letter-spacing: -0.01em;
+        margin: 0 0 12px;
+      }
+      .intro {
+        font-size: 1.13rem;
+        color: var(--ink-soft);
+        margin: 0 0 22px;
+        max-width: 42em;
+      }
+      .golden {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        background: var(--warm-bg);
+        border: 2px solid var(--warm-line);
+        border-radius: 14px;
+        padding: 16px 18px;
+      }
+      .golden .rule-mark {
+        flex: 0 0 auto;
+        width: 34px;
+        height: 34px;
+        margin-top: 2px;
+      }
+      .golden p { margin: 0; font-size: 1.08rem; }
+      .golden .rule-label {
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--warm-strong);
+        margin-bottom: 3px;
+      }
+      .golden strong { color: var(--warm-strong); }
+      .term-note {
+        margin-top: 14px;
+        padding: 12px 16px;
+        background: var(--surface-soft);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        color: var(--ink-soft);
+        font-size: 1rem;
+      }
+      .term-note p { margin: 0; }
+      .term-note .note-label {
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 3px;
+      }
+      .term-note strong { color: var(--ink); }
+
+      /* ---------- Picker ---------- */
+      .picker { margin: 30px 0 8px; }
+      .picker h2, .compare h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 700;
+        font-size: 1.45rem;
+        margin: 0 0 14px;
+      }
+      .picker-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+      .pick {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        background: var(--surface);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: var(--ink);
+        box-shadow: var(--shadow);
+      }
+      a.pick:hover, a.pick:focus-visible { border-color: var(--accent); }
+      .pick .when { color: var(--ink-soft); font-size: 1rem; line-height: 1.35; }
+      .pick .what {
+        font-weight: 700;
+        white-space: nowrap;
+        color: var(--accent);
+        font-size: 1.05rem;
+        text-align: right;
+      }
+      .pick .what .arrw { font-weight: 400; }
+      .pick .what a { color: var(--accent); text-decoration: none; }
+      .pick .what a:hover, .pick .what a:focus-visible { text-decoration: underline; }
+      .diagram-note {
+        margin: 16px 2px 0;
+        font-size: 0.95rem;
+        color: var(--muted);
+        max-width: 46em;
+      }
+
+      /* ---------- Cards ---------- */
+      .skill-card {
+        background: var(--surface);
+        border: 1.5px solid var(--line);
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+        padding: 24px 24px 26px;
+        margin-top: 30px;
+        scroll-margin-top: 16px;
+      }
+      .card-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 14px;
+        margin-bottom: 16px;
+      }
+      .card-head h2 {
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 700;
+        font-size: 1.65rem;
+        line-height: 1.15;
+        margin: 0;
+      }
+      .card-head .num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--ice);
+        color: var(--ink);
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        font-weight: 900;
+        font-size: 1.15rem;
+        flex: 0 0 auto;
+      }
+      .badge {
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 4px 11px;
+        border-radius: 999px;
+        background: var(--badge-bg);
+        color: var(--badge-ink);
+      }
+      .badge.mid { background: var(--badge-mid-bg); color: var(--badge-mid-ink); }
+      .badge.adv { background: var(--badge-adv-bg); color: var(--badge-adv-ink); }
+      .card-head .num.bonus {
+        width: auto;
+        height: 38px;
+        border-radius: 999px;
+        padding: 0 14px;
+        font-size: 0.82rem;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+      }
+      .card-note {
+        margin: 0 0 20px;
+        padding: 12px 16px;
+        background: var(--surface-soft);
+        border: 1.5px dashed var(--line);
+        border-radius: 12px;
+        color: var(--ink-soft);
+        font-size: 1rem;
+      }
+
+      /* ---------- Feet diagram: one per card ---------- */
+      .diagrams {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 0 0 20px;
+      }
+      .diagrams figure.diagram {
+        margin: 0;
+        width: 100%;
+        max-width: 330px;
+      }
+      figure.diagram {
+        margin: 0 0 20px;
+        background: #ffffff;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 10px;
+      }
+      figure.diagram svg { display: block; width: 100%; height: auto; }
+      figure.diagram figcaption {
+        text-align: center;
+        font-size: 0.88rem;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+
+      /* ---------- Book reference photo ---------- */
+      .book-photo {
+        margin: 0 0 20px;
+        text-align: center;
+      }
+      .book-photo img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 290px;
+        height: auto;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        background: #ffffff;
+        filter: grayscale(1);
+      }
+      .book-photo.wide img { max-width: 560px; }
+      .book-photo figcaption {
+        margin-top: 8px;
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+      .book-photo.watch img { filter: none; max-width: 480px; }
+      .book-photo.watch a { display: block; line-height: 0; }
+      .book-photo.watch a:hover img, .book-photo.watch a:focus-visible img { border-color: var(--accent); }
+
+      /* ---------- Embedded YouTube player ---------- */
+      .video-embed {
+        position: relative;
+        aspect-ratio: 16 / 9;
+        max-width: 480px;
+        margin: 0 auto;
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        background: #000;
+      }
+      .video-embed iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+      }
+
+      .rows { display: grid; gap: 14px; margin: 0 0 20px; }
+      .row {
+        display: grid;
+        grid-template-columns: 74px 1fr;
+        gap: 14px;
+        align-items: start;
+      }
+      .row .tag {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--chip-ink);
+        border-radius: 8px;
+        padding: 5px 4px;
+        margin-top: 3px;
+      }
+      .tag.t-body { background: var(--chip-body); }
+      .tag.t-feet { background: var(--chip-feet); }
+      .tag.t-blade { background: var(--chip-blade); }
+      .row p { margin: 0; color: var(--ink-soft); }
+      .row p strong { color: var(--ink); }
+
+      .tips {
+        background: var(--surface-soft);
+        border: 1.5px solid var(--line);
+        border-radius: 12px;
+        padding: 16px 18px 8px;
+      }
+      .tips h3 {
+        margin: 0 0 8px;
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      .tips ul { margin: 0; padding: 0; list-style: none; }
+      .tips li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        color: var(--ink-soft);
+      }
+      .tips li::before {
+        content: "";
+        position: absolute;
+        left: 2px;
+        top: 0.52em;
+        width: 8px;
+        height: 8px;
+        border-radius: 2px;
+        background: var(--ice-deep);
+        transform: rotate(45deg);
+      }
+      .tips li strong { color: var(--ink); }
+
+      /* ---------- Comparison table ---------- */
+      .compare { margin-top: 40px; }
+      .table-scroll {
+        overflow-x: auto;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        -webkit-overflow-scrolling: touch;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 720px;
+        font-size: 0.98rem;
+      }
+      th, td {
+        text-align: left;
+        padding: 12px 14px;
+        vertical-align: top;
+        border-bottom: 1px solid var(--line);
+      }
+      thead th {
+        background: var(--ice);
+        color: var(--ink);
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      tbody th { font-weight: 700; color: var(--ink); }
+      tbody td { color: var(--ink-soft); }
+      tbody tr:last-child th, tbody tr:last-child td { border-bottom: none; }
+
+      footer {
+        margin-top: 36px;
+        padding-top: 18px;
+        border-top: 1.5px solid var(--line);
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      footer p { margin: 0; }
+
+      @media (max-width: 620px) {
+        body { font-size: 17px; }
+        .wrap { padding: 20px 14px 40px; }
+        .picker-grid { grid-template-columns: 1fr; }
+        .pick .what { white-space: normal; }
+        .skill-card { padding: 18px 16px 20px; }
+        .row { grid-template-columns: 62px 1fr; gap: 10px; }
+        figure.diagram { padding: 6px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+
+      <header>
+        <h1>Figure Skating Stroking — Quick Reference</h1>
+        <p class="intro">How you actually move on the ice — the pushes and glides that connect everything else, from the "Stroking Skills" section of <em>The Complete Book of Figure Skating</em>, Chapter 4.</p>
+        <div class="golden" role="note">
+          <svg class="rule-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2 L14.6 9.4 L22 12 L14.6 14.6 L12 22 L9.4 14.6 L2 12 L9.4 9.4 Z" fill="#c2501a"/></svg>
+          <p><span class="rule-label">The balance rule</span>Forward skating: <strong>weight slightly back of centre</strong> on the blade. Backward skating: <strong>weight slightly forward of centre</strong>. Nearly everything on this page hangs on that.</p>
+        </div>
+        <div class="term-note" role="note">
+          <p><span class="note-label">Terminology</span><strong>Sculling = swizzle.</strong> The book (2001) calls this pump step "sculling"; most rinks today call it a swizzle.</p>
+        </div>
+      </header>
+
+      <nav class="picker" aria-label="Which skill when?">
+        <h2>Which skill when?</h2>
+        <div class="picker-grid">
+          <a class="pick" href="#forward-sculling">
+            <span class="when">Move without lifting your feet</span>
+            <span class="what">Forward Sculling (Swizzle) <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#forward-glides">
+            <span class="when">Your first real strokes</span>
+            <span class="what">Forward Glides <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#advanced-forward">
+            <span class="when">More power and polish</span>
+            <span class="what">Advanced Forward Stroking <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#power-stroking">
+            <span class="when">Fastest acceleration</span>
+            <span class="what">Power Stroking <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#backward-sculling">
+            <span class="when">Start moving backward</span>
+            <span class="what">Backward Sculling (Swizzle) <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <a class="pick" href="#snake">
+            <span class="when">First taste of moving backward</span>
+            <span class="what">The Snake (bonus) <span class="arrw" aria-hidden="true">→</span></span>
+          </a>
+          <div class="pick">
+            <span class="when">Glide backward</span>
+            <span class="what"><a href="#backward-glides">Backward Glides</a> &amp; <a href="#advanced-backward">Advanced Backward Skating</a> <span class="arrw" aria-hidden="true">→</span></span>
+          </div>
+        </div>
+        <p class="diagram-note">Reading the diagrams: in every one you're looking down at your own feet. The red arrow points in the direction of travel — for backward skills it points down the page, toward you. Red dots mark the pressing edge; the pale blue curve in the sculling diagrams is the lemon-shaped track the feet trace; a dashed boot is a foot lifted off the ice.</p>
+      </nav>
+
+      <main>
+        <!-- CARD 1 -->
+        <section class="skill-card" id="forward-sculling" aria-labelledby="fwd-sculling-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">1</span>
+            <h2 id="fwd-sculling-h">Forward Sculling (Swizzle)</h2>
+            <span class="badge">Beginner</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Forward sculling diagram: feet and blades from above — feet together in a V at the bottom of a lemon-shaped track, toes pointed out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah1)}
+                  .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <path d="M150,248 C92,220 84,150 150,96 C216,150 208,220 150,248 Z" class="track"/>
+              <g transform="translate(128,205) rotate(-32)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(172,205) rotate(32)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/QF9QI449SVw" title="How to do forward swizzles - learn to ice skate online — Coach Mary Figure Skating" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=QF9QI449SVw" target="_blank" rel="noopener noreferrer">▶ Watch: How to do forward swizzles - learn to ice skate online — Coach Mary Figure Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Arms extended out to the sides for balance, knees bent; weight slightly back of centre on the blades — the balance for all forward skating.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Start with feet together in a V, toes pointed out. Push the feet forward and out to the sides until they're parallel, slightly more than shoulder-width apart; then straighten the knees and pull the feet back together, toes pointing in, until side by side. Repeat — out, then in — until it flows. (The diagram shows the start position at the bottom of the lemon-shaped track.)</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The inside edge of each foot presses into the ice to drive the push out.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Neither foot ever leaves the ice — it's a pump step, and it works forward or backward.</li>
+              <li>Be patient: finding just the right amount of pressure turns it into a graceful, effortless glide.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 2 -->
+        <section class="skill-card" id="forward-glides" aria-labelledby="fwd-glides-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">2</span>
+            <h2 id="fwd-glides-h">Forward Glides · Basic Stroking</h2>
+            <span class="badge">Beginner</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Forward glides diagram: feet and blades from above — one foot gliding straight ahead, the other rotated out about 45 degrees pressing behind it" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah2)}
+                  .dot{fill:#d64541}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <g transform="translate(115,118)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(192,222) rotate(45)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <circle cx="183" cy="213" r="5" class="dot"/>
+              <path d="M224,246 L254,270" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo wide">
+            <img src="assets/fig5-forward-stroking.png" alt="Black-and-white book photo in two panels: (a) a skater pressing with the right foot, (b) the same skater gliding forward on the left foot" width="1764" height="1033">
+            <figcaption>From the book — Figure 4.5: (a) the right foot presses, (b) the left foot glides</figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Balanced over both feet for the two-foot glide, weight slightly back of centre. Start near the boards until confidence grows and the barrier is no longer needed.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Begin parallel, about shoulder-width apart. Bend both knees; one foot (the book uses the right) rotates out to nearly 45° and presses against the ice, pushing with the entire blade; your weight transfers to the other foot, which glides forward on one foot. Bring the feet back together and repeat on the other side.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The pushing foot drives with the whole blade; the gliding foot runs flat and straight.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Aim to glide a distance of about three times your height on one foot.</li>
+              <li>Repeating the push on the same foot is the one-footed pump step; alternate feet to travel across the ice.</li>
+              <li>Practice until the push-and-glide becomes one smooth, continuous motion.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 3 -->
+        <section class="skill-card" id="advanced-forward" aria-labelledby="adv-fwd-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">3</span>
+            <h2 id="adv-fwd-h">Advanced Forward Stroking</h2>
+            <span class="badge mid">Intermediate</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Advanced forward stroking diagram: feet and blades from above — the skating foot gliding ahead, the push-off foot stretched out behind it, shown dashed because it is lifted off the ice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah3)}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <g transform="translate(133,102)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(148,226)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/-7QqRz2EZAM" title="Best Tutorial for Beautiful Forward Stroking — Coach Julia" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=-7QqRz2EZAM" target="_blank" rel="noopener noreferrer">▶ Watch: Best Tutorial for Beautiful Forward Stroking — Coach Julia (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Upper body straight, back erect. A deeper knee and ankle bend before each stroke lengthens it — that bend is where the extra power and speed come from.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Begin with feet together. Ankle and knee bend forward; the push-off leg straightens and presses the ice, propelling the skating foot forward. The push-off foot then leaves the ice and stretches fully behind the skating foot, knee turned out, toe pointed. Finally the free leg lowers beside the skating foot, both knees bent — and the stroke repeats on the other side.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Push from the inside edge — <strong>never the toe pick</strong>. The middle to the ball of the foot presses on the blade.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>The whole stroke in three words: <strong>bend, extension, stretch</strong>.</li>
+              <li><strong>Strength drill (wall sits):</strong> back against a wall, feet 12–18 inches out, toes forward; slide down slowly until your thighs are perpendicular to the wall; hold 30 seconds. Best done supervised.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 4 -->
+        <section class="skill-card" id="power-stroking" aria-labelledby="power-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">4</span>
+            <h2 id="power-h">Power Stroking</h2>
+            <span class="badge adv">Advanced</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Power stroking diagram: feet and blades from above — one foot gliding ahead, the other driving out explosively behind with spray marks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah4" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah4)}
+                  .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+                  .dot{fill:#d64541}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+              <g transform="translate(108,112)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(196,218) rotate(50)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <circle cx="184" cy="206" r="5" class="dot"/>
+              <path d="M226,240 L256,264" class="arr"/>
+              <path d="M224,196 L246,184 M230,220 L256,220 M224,244 L246,256" class="spray"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/bdPqPATTcz4" title="Forward Power Stroking tutorial — Ice Edge Academy" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=bdPqPATTcz4" target="_blank" rel="noopener noreferrer">▶ Watch: Forward Power Stroking tutorial — Ice Edge Academy (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Stroking posture driven explosively — the knee and ankle snap into every push.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Alternating full strokes, accelerating in as few pushes as possible.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Explosive push and pressure — feel the skating blade press into the ice and push away from it.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>It's more than pushing quickly: it's explosive acceleration — top speed in the shortest time.</li>
+              <li><strong>Drill:</strong> stand on a hockey blue line; on a signal, accelerate to the red line. Your time should drop as the stroke gets stronger.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 5 -->
+        <section class="skill-card" id="backward-sculling" aria-labelledby="bwd-sculling-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">5</span>
+            <h2 id="bwd-sculling-h">Backward Sculling (Swizzle)</h2>
+            <span class="badge">Beginner</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Backward sculling diagram: feet and blades from above — feet together at the top of a lemon-shaped track, toes pointed in and heels out, with the travel arrow pointing down the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah5" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah5)}
+                  .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <path d="M150,52 C92,80 84,150 150,204 C216,150 208,80 150,52 Z" class="track"/>
+              <g transform="translate(126,102) rotate(30)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(174,102) rotate(-30)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <path d="M150,240 L150,274" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/_fc6CMS0SWY" title="Learn How to Ice Skate: Backwards Swizzles Lesson 21 — Coach Mary Figure Skating" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=_fc6CMS0SWY" target="_blank" rel="noopener noreferrer">▶ Watch: Learn How to Ice Skate: Backwards Swizzles Lesson 21 — Coach Mary Figure Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Arms stretched out to the sides, knees bent; weight slightly forward of centre on the blades — the balance for all backward skating.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Start with feet together, toes pointed in and heels out — the mirror image of forward sculling. Press the feet back and out to the sides until parallel, slightly more than shoulder-width apart; then straighten the knees and pull the feet back together until side by side. Repeat the push–pull pattern until it flows. (In the diagram you're at the top of the lemon; the red arrow points backward — your direction of travel.)</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The inside edge of each foot presses to push the feet apart.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li><strong>In-place drill:</strong> stand with your feet under your body and twist the toes in and out to learn the foot and ankle action; then add knee bend and a little momentum.</li>
+              <li>Keep practicing to find the pressure that moves you backward without getting stuck.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 6 -->
+        <section class="skill-card" id="backward-glides" aria-labelledby="bwd-glides-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">6</span>
+            <h2 id="bwd-glides-h">Backward Glides</h2>
+            <span class="badge mid">Beginner–Intermediate</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Backward glides diagram: feet and blades from above — two feet close together gliding backward, travel arrow pointing down the page" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah6" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah6)}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <g transform="translate(133,148)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(170,148)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <path d="M150,238 L150,272" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/BbezbQvyX6I" title="Learn How to Ice Skate: Backward Glides Lesson 22 — Coach Mary Figure Skating" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=BbezbQvyX6I" target="_blank" rel="noopener noreferrer">▶ Watch: Learn How to Ice Skate: Backward Glides Lesson 22 — Coach Mary Figure Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Weight balanced forward over the ball of the foot — not onto the toes. Begin near the barrier, like forward skating.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Start with short backward steps, toes pointed in and heels turned out — the backward "duck walk." Then glide backward on two feet held close together; once that's solid, lift one foot (the free foot) and glide on the other (the skating foot).</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Both blades flat for the two-foot glide, weight slightly forward of centre.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Practice the one-foot glide on both feet, aiming for about three times your height.</li>
+              <li><strong>Warm-up:</strong> the backward wiggle — a hula-hoop action while standing on both feet.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- BONUS CARD -->
+        <section class="skill-card" id="snake" aria-labelledby="snake-h">
+          <div class="card-head">
+            <span class="num bonus" aria-hidden="true">Bonus</span>
+            <h2 id="snake-h">The Snake (Backward Wiggle)</h2>
+            <span class="badge">Bonus · Beginner</span>
+          </div>
+          <p class="card-note">Only a teaching tip in the book — fleshed out from Learn to Skate–style curricula, where the backward wiggle is the classic first backward movement.</p>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="The Snake diagram: feet and blades from above — two parallel boots side by side above a wavy snake track, with a red arrow pointing down the page for backward travel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah8)}
+                  .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <path d="M147,142 C100,164 194,188 147,214 C112,232 172,244 147,254" class="track"/>
+              <g transform="translate(126,92) rotate(-14)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(168,92) rotate(-14)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <path d="M150,262 L150,288" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/tZpVTaxvn4c" title="Backwards Wiggles PART ONE | Ice Skating Moves for Beginners — Coach Ashleigh" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=tZpVTaxvn4c" target="_blank" rel="noopener noreferrer">▶ Watch: Backwards Wiggles PART ONE | Ice Skating Moves for Beginners — Coach Ashleigh (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Knees bent, chest up, arms out to the sides. Balance on the balls of your feet — the backward-skating balance — and let your hips sway side to side, against your shoulders.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Feet together and parallel, both staying on the ice the whole time. Shift your weight from one foot to the other, pressing out a little with each foot in turn; each small press nudges you backward, and your path weaves like a snake.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>Both blades stay down, weight over the balls of the feet; each foot presses out in turn as the weight lands on it.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>The book slips this into a Teaching Tip under Backward Glides: tots pretend to be bunnies wiggling through the carrot patch; adults are told to think “hula hoop.”</li>
+              <li>In the Taiwan association’s beginner progression it’s called the snake (蛇行), the step right after the backward duck walk.</li>
+              <li>Glance over your shoulder before you start — you’re travelling where you can’t see.</li>
+              <li>Wiggling but going nowhere? Walk backward slowly with your toes turned in to feel the momentum, then go back to wiggling.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- CARD 7 -->
+        <section class="skill-card" id="advanced-backward" aria-labelledby="adv-bwd-h">
+          <div class="card-head">
+            <span class="num" aria-hidden="true">7</span>
+            <h2 id="adv-bwd-h">Advanced Backward Skating</h2>
+            <span class="badge mid">Intermediate</span>
+          </div>
+          <div class="diagrams">
+          <figure class="diagram">
+            <svg role="img" aria-label="Advanced backward skating diagram: feet and blades from above — one foot gliding backward, the other shown dashed, hovering just off the ice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+              <defs>
+                <marker id="ah7" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+                </marker>
+                <style>
+                  .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+                  .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah7)}
+                  .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+                </style>
+              </defs>
+              <rect x="0" y="0" width="300" height="300" class="panel"/>
+              <g transform="translate(128,152)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+              <g transform="translate(185,138)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+              <path d="M150,242 L150,276" class="arr"/>
+            </svg>
+            <figcaption>Feet &amp; blades, from above</figcaption>
+          </figure>
+          </div>
+          <figure class="book-photo watch">
+            <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/rDquL_0cUag" title="Unlock Smooth Backward Stroking: Tips and Drills for Every Skater — Style Skating" loading="lazy" allowfullscreen></iframe></div>
+            <figcaption><a href="https://www.youtube.com/watch?v=rDquL_0cUag" target="_blank" rel="noopener noreferrer">▶ Watch: Unlock Smooth Backward Stroking: Tips and Drills for Every Skater — Style Skating (YouTube)</a></figcaption>
+          </figure>
+          <div class="rows">
+            <div class="row">
+              <span class="tag t-body">Body</span>
+              <p>Weight stays forward; the free toe points down; look over one shoulder in the direction you're travelling — head up, never facing down.</p>
+            </div>
+            <div class="row">
+              <span class="tag t-feet">Feet</span>
+              <p>Push from one foot onto the other (the book: the right foot pushes, you glide on the left). The pushing foot rises just above the ice; the skating knee starts slightly bent and straightens slowly as the free foot comes back beside it. Repeat to the other side. (In the diagram, the dashed boot is the free foot hovering.)</p>
+            </div>
+            <div class="row">
+              <span class="tag t-blade">Blade</span>
+              <p>The push and the glide both run on the skating foot; the free foot stays just off the ice.</p>
+            </div>
+          </div>
+          <div class="tips">
+            <h3>Tips</h3>
+            <ul>
+              <li>Balance is the whole game: lean too far back and you'll fall; too far forward and the glide stops dead.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- COMPARISON -->
+        <section class="compare" aria-labelledby="compare-h">
+          <h2 id="compare-h">All seven skills at a glance</h2>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Skill</th>
+                  <th scope="col">Feet pattern</th>
+                  <th scope="col">Weight on blade</th>
+                  <th scope="col">Power source</th>
+                  <th scope="col">Direction</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Forward sculling (swizzle)</th>
+                  <td>V → wide → together, repeat</td>
+                  <td>Slightly back of centre</td>
+                  <td>Inside-edge push out, pull in</td>
+                  <td>Forward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Forward glides / stroking</th>
+                  <td>Push at ~45°, glide on the other foot</td>
+                  <td>Slightly back of centre</td>
+                  <td>Whole-blade push</td>
+                  <td>Forward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Advanced forward stroking</th>
+                  <td>Together → push → free leg stretched behind</td>
+                  <td>Slightly back of centre</td>
+                  <td>Inside-edge push, deep bend</td>
+                  <td>Forward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Power stroking</th>
+                  <td>Same strokes, explosive</td>
+                  <td>Slightly back of centre</td>
+                  <td>Knee-and-ankle snap</td>
+                  <td>Forward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Backward sculling (swizzle)</th>
+                  <td>Toes-in start → back &amp; out → together</td>
+                  <td>Slightly forward of centre</td>
+                  <td>Inside-edge push</td>
+                  <td>Backward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Backward glides</th>
+                  <td>Duck walk → two-foot → one-foot glide</td>
+                  <td>Forward, over the ball of the foot</td>
+                  <td>Short steps, then coast</td>
+                  <td>Backward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Advanced backward skating</th>
+                  <td>Push across, free foot hovers</td>
+                  <td>Forward</td>
+                  <td>Alternating backward strokes</td>
+                  <td>Backward</td>
+                </tr>
+                <tr>
+                  <th scope="row">Snake / backward wiggle (bonus)</th>
+                  <td>Feet together, weight shifts side to side</td>
+                  <td>Slightly forward, over the balls of the feet</td>
+                  <td>Side-to-side presses + hip sway</td>
+                  <td>Backward</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Summarized from <em>The Complete Book of Figure Skating</em> by Carole Shulman, Chapter 4, "Stroking Skills" (pp. 44–48). Edges and crossovers are the chapter's next sections.</p>
+      </footer>
+
+    </div>
+  </body>
+</html>

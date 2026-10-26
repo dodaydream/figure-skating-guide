@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+    </marker>
+    <style>
+      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+      .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+      .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah)}
+      .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#ah)}
+      .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dot{fill:#d64541}
+      .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+  <line x1="150" y1="88" x2="150" y2="52" class="arr"/>
+  <path d="M100,272 C168,252 196,214 168,168" class="track"/>
+  <g transform="translate(160,206) rotate(-18)"><rect x="-13" y="-42" width="26" height="84" rx="13" fill="#2b3440"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#aeb9c4" stroke-width="3"/></g>
+  <g transform="translate(104,246) rotate(-12)"><rect x="-13" y="-42" width="26" height="84" rx="13" class="ghostboot"/><line x1="0" y1="-48" x2="0" y2="48" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+  <circle cx="174" cy="202" r="5" class="dot"/>
+</svg>

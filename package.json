@@ -7,7 +7,6 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "deploy": "bash scripts/deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

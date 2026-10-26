@@ -1,13 +1,8 @@
-import { defineConfig } from 'vitepress'
-
-export default defineConfig({
+export default {
   title: 'Figure Skating Guide',
   description: 'Quick-reference pages from The Complete Book of Figure Skating by Carole Shulman',
-  lang: 'en',
-  base: "./",
+  lang: 'en-CA',
   cleanUrls: false,
-  srcDir: './docs',
-  outDir: '../dist',
   srcExclude: ['**/index.html'],
   themeConfig: {
     nav: [
@@ -29,4 +24,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/dodaydream/figure-skating-guide' }
     ]
   }
-})
+}

@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/figure-skating-guide/'
+
 export default defineConfig({
   title: 'Figure Skating Guide',
   description: 'Quick-reference pages from The Complete Book of Figure Skating by Carole Shulman',
   lang: 'en',
+  base,
   cleanUrls: false,
   srcDir: './docs',
   outDir: './dist',

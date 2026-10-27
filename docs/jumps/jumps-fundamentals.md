@@ -27,7 +27,7 @@ No video on this page: the fundamentals are a framework, not a single technique.
 
 ---
 
-## Determining the Direction of Rotation {#determining-the-direction-of-rotation} <Badge type="info" text="Before you start" />
+## Determining the Direction of Rotation <Badge type="info" text="Before you start" /> {#determining-the-direction-of-rotation}
 
 Clockwise (to the right) or counter-clockwise (to the left) — most skaters find their natural direction without help. For those who are confused, jump one way then the other, or jump and spin in opposite directions, the book gives three checks. Direction seldom relates to whether the skater is right- or left-handed.
 
@@ -44,7 +44,7 @@ Clockwise (to the right) or counter-clockwise (to the left) — most skaters fin
 
 ---
 
-## The Four Phases {#the-four-phases} <Badge type="tip" text="Foundation" />
+## The Four Phases <Badge type="tip" text="Foundation" /> {#the-four-phases}
 
 Every jump has exactly four key parts: **1 · Preparation, 2 · Takeoff, 3 · Rotation (air position), 4 · Landing**. Precise timing is critical in all of them — each body movement must happen at an exact time and place, and all the body parts must work harmoniously together to create rhythm.
 
@@ -99,7 +99,7 @@ The same for every jump, from a bunny hop to a triple Axel.
 
 ---
 
-## Jumping Progression — the families {#jumping-progression} <Badge type="info" text="All levels" />
+## Jumping Progression — the families <Badge type="info" text="All levels" /> {#jumping-progression}
 
 Categorizing jumps by their takeoff groups them into **families**. It shows the similarities and differences in execution — and it is why this chapter is split into one file per family.
 

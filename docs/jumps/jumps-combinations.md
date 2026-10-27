@@ -23,7 +23,7 @@ All descriptions in the book — and in all six Jumps files — assume a skater 
 
 ---
 
-## Combination Jumps {#combination-jumps} <Badge type="warning" text="Intermediate" />
+## Combination Jumps <Badge type="warning" text="Intermediate" /> {#combination-jumps}
 
 A jump combination **links two jumps together by using the landing foot of the first jump as the takeoff for the second jump**. There is no step, turn, or change of foot between them — the landing of jump one *is* the preparation for jump two.
 
@@ -62,7 +62,7 @@ Every pairing the book lists ends the same way — in a loop or a toe loop:
 
 ---
 
-## Jump Sequences {#jump-sequences} <Badge type="info" text="Beyond two jumps" />
+## Jump Sequences <Badge type="info" text="Beyond two jumps" /> {#jump-sequences}
 
 The book defines the sequence in the same breath as the combination, and just as simply: a **jump sequence is three or more jumps linked together**.
 

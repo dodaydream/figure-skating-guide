@@ -28,7 +28,7 @@ How to read the diagrams: sustained glides are shown as a **single diagram** loo
 
 ---
 
-## Forward Spiral {#forward-spiral} <Badge type="tip" text="Foundation" />
+## Forward Spiral <Badge type="tip" text="Foundation" /> {#forward-spiral}
 
 In ballet, an arabesque. One of the most beautiful moves in skating when done well — it takes flexibility, balance, and control. Start from a forward two-foot glide once your one-foot glide is solid.
 
@@ -57,7 +57,7 @@ In ballet, an arabesque. One of the most beautiful moves in skating when done we
 
 ---
 
-## Back Spiral {#back-spiral} <Badge type="warning" text="Beginner–Intermediate" />
+## Back Spiral <Badge type="warning" text="Beginner–Intermediate" /> {#back-spiral}
 
 The forward spiral's backward twin, begun from a backward one-foot glide. No book photo for this one — the diagram is the reference.
 
@@ -85,7 +85,7 @@ The forward spiral's backward twin, begun from a backward one-foot glide. No boo
 
 ---
 
-## Lunge {#lunge} <Badge type="tip" text="Beginner" />
+## Lunge <Badge type="tip" text="Beginner" /> {#lunge}
 
 Bend the skating knee fully, stretch the free leg behind, and draw it along the ice behind the skating foot. A stand-alone move, or a variation on the entrance or exit of a spin or jump. No book photo — the diagram is the reference.
 
@@ -112,7 +112,7 @@ Bend the skating knee fully, stretch the free leg behind, and draw it along the 
 
 ---
 
-## Shoot-the-Duck {#shoot-the-duck} <Badge type="tip" text="Beginner–Intermediate" />
+## Shoot-the-Duck <Badge type="tip" text="Beginner–Intermediate" /> {#shoot-the-duck}
 
 Bend fully on the skating knee and stretch the free foot directly out in front, travelling in a straight line. This is the strength-and-balance builder behind the sit spin.
 
@@ -140,7 +140,7 @@ Bend fully on the skating knee and stretch the free foot directly out in front, 
 
 ---
 
-## Forward Inside Pivot {#forward-inside-pivot} <Badge type="tip" text="Beginner–Intermediate" />
+## Forward Inside Pivot <Badge type="tip" text="Beginner–Intermediate" /> {#forward-inside-pivot}
 
 The simplest of all the pivots. A pretty move from the spin family: the toe of one foot plants on the ice while the other foot circles around it on an edge. It can also serve as an entrance into or an exit from a spin.
 
@@ -184,7 +184,7 @@ The simplest of all the pivots. A pretty move from the spin family: the toe of o
 
 ---
 
-## Forward Outside Pivot {#forward-outside-pivot} <Badge type="danger" text="Advanced" />
+## Forward Outside Pivot <Badge type="danger" text="Advanced" /> {#forward-outside-pivot}
 
 Entered from a forward outside edge on either foot. The book is blunt about this one: very difficult, and seldom used.
 
@@ -227,7 +227,7 @@ Entered from a forward outside edge on either foot. The book is blunt about this
 
 ---
 
-## Back Inside Pivot {#back-inside-pivot} <Badge type="warning" text="Intermediate" />
+## Back Inside Pivot <Badge type="warning" text="Intermediate" /> {#back-inside-pivot}
 
 Preparation mirrors the forward inside pivot: one toe planted, the other blade pushing away in an ever-widening circle around it. No book photo — the keyframes are the reference.
 
@@ -268,7 +268,7 @@ Preparation mirrors the forward inside pivot: one toe planted, the other blade p
 
 ---
 
-## Back Outside Pivot {#back-outside-pivot} <Badge type="danger" text="Advanced" />
+## Back Outside Pivot <Badge type="danger" text="Advanced" /> {#back-outside-pivot}
 
 Quite difficult — but spectacular at speed. Used in many freestyle programs, combines easily with spins, and it's the man's position in a pairs death spiral.
 
@@ -312,7 +312,7 @@ Quite difficult — but spectacular at speed. Used in many freestyle programs, c
 
 ---
 
-## Inside Spread Eagle {#inside-spread-eagle} <Badge type="warning" text="Intermediate–Advanced" />
+## Inside Spread Eagle <Badge type="warning" text="Intermediate–Advanced" /> {#inside-spread-eagle}
 
 In ballet, the second position. It depends entirely on the ability to open the hips — not every skater can do it — and done well it's a dramatic move.
 
@@ -348,7 +348,7 @@ In ballet, the second position. It depends entirely on the ability to open the h
 
 ---
 
-## Outside Spread Eagle {#outside-spread-eagle} <Badge type="danger" text="Advanced" />
+## Outside Spread Eagle <Badge type="danger" text="Advanced" /> {#outside-spread-eagle}
 
 The same swing-and-place as the inside version, on outside edges — it takes an *extremely* open hip position.
 
@@ -377,7 +377,7 @@ The same swing-and-place as the inside version, on outside edges — it takes an
 
 ---
 
-## The Bauer {#the-bauer} <Badge type="danger" text="Advanced" />
+## The Bauer <Badge type="danger" text="Advanced" /> {#the-bauer}
 
 Named for Ina Bauer, German champion from 1956 to 1960. A dramatic variation of the spread eagle: bend the front knee, keep the back knee straight.
 

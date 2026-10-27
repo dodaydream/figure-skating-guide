@@ -24,7 +24,7 @@ All descriptions in the book — and in all six Jumps files — assume a skater 
 
 ---
 
-## Waltz Jump {#waltz-jump} <Badge type="tip" text="Beginner · ½ rotation" />
+## Waltz Jump <Badge type="tip" text="Beginner · ½ rotation" /> {#waltz-jump}
 
 A **half-turn rotation** in the air — the first full jump in this set. It takes off on the **left forward outside** edge and lands on the **right back outside** edge. (A seldom-performed one-footed version — same foot, outside-edge takeoff to an inside-edge landing — is sometimes called a three jump.)
 
@@ -50,7 +50,7 @@ A **half-turn rotation** in the air — the first full jump in this set. It take
 
 ---
 
-## Salchow {#salchow} <Badge type="info" text="Intermediate · 1 rotation" />
+## Salchow <Badge type="info" text="Intermediate · 1 rotation" /> {#salchow}
 
 Named for the Swedish world champion **Ulrich Salchow**. It begins from a **back inside edge** and ends on a **back outside edge** — sometimes described as a waltz jump from a back inside edge, which is almost true, except that a waltz jump is one half rotation and the Salchow is **one full revolution**.
 
@@ -78,7 +78,7 @@ Named for the Swedish world champion **Ulrich Salchow**. It begins from a **back
 
 ---
 
-## Loop {#loop} <Badge type="info" text="Intermediate · 1 rotation" />
+## Loop <Badge type="info" text="Intermediate · 1 rotation" /> {#loop}
 
 The loop begins from a **right back outside edge**, rotates **one full revolution**, and lands on the **same edge** it took off from — the right back outside. Its air position is the basic position for body and balance in all multi-rotation jumps; Fritz Dietl named the loop the "king of jumps," and it used to be known as the Rittberger.
 
@@ -105,7 +105,7 @@ The loop begins from a **right back outside edge**, rotates **one full revolutio
 
 ---
 
-## Walley {#walley} <Badge type="warning" text="Intermediate–Advanced · 1 rotation" />
+## Walley <Badge type="warning" text="Intermediate–Advanced · 1 rotation" /> {#walley}
 
 Named for **Nate Walley**. It is executed from a **right back inside edge**, lifting off and rotating **one full turn** in the air before landing on a **right back outside edge** — the same foot it took off from.
 
@@ -127,7 +127,7 @@ Named for **Nate Walley**. It is executed from a **right back inside edge**, lif
 
 ---
 
-## Axel {#axel} <Badge type="danger" text="Advanced · 1½ rotations" />
+## Axel <Badge type="danger" text="Advanced · 1½ rotations" /> {#axel}
 
 Named for Norwegian **Axel Paulsen**, who invented the jump in **1882**; it was first performed in competition in Vienna, Austria, and in its day it was the most difficult jump ever performed. The Axel is considered a single jump, but it is actually **one and one-half revolutions** in the air — and it is one of the few jumps that take off on a **forward edge**: it starts on the **left forward outside** edge and lands on the **right back outside** edge.
 

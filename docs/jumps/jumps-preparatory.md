@@ -28,7 +28,7 @@ All descriptions in the book — and in all six Jumps files — assume a skater 
 
 ---
 
-## Bunny Hop {#bunny-hop} <Badge type="tip" text="First jump · no rotation" />
+## Bunny Hop <Badge type="tip" text="First jump · no rotation" /> {#bunny-hop}
 
 A great beginning jump — it has **no edges and no rotation**, and gives you the comfort of a two-part landing. It is a bit like a little skip: it takes off from the right foot, steps on the left toe, and finishes on the right foot. It can equally well begin with the left foot.
 
@@ -55,7 +55,7 @@ A great beginning jump — it has **no edges and no rotation**, and gives you th
 
 ---
 
-## Mazurka {#mazurka} <Badge type="info" text="½ turn" />
+## Mazurka <Badge type="info" text="½ turn" /> {#mazurka}
 
 The mazurka feels like a **sideways bunny hop**: the takeoff and the scissoring free-foot action are the same, but where the bunny hop's body position is square to the print, the mazurka's is **parallel — sideways**.
 
@@ -81,7 +81,7 @@ The mazurka feels like a **sideways bunny hop**: the takeoff and the scissoring 
 
 ---
 
-## Ballet Jump {#ballet-jump} <Badge type="info" text="½ turn" />
+## Ballet Jump <Badge type="info" text="½ turn" /> {#ballet-jump}
 
 Named for its beautiful position in the air — traditionally the **left arm overhead, right arm out to the side, skating foot straight beneath the body, free leg out to the side**. The air position can be varied.
 
@@ -107,7 +107,7 @@ Named for its beautiful position in the air — traditionally the **left arm ove
 
 ---
 
-## Half Flip Hop {#half-flip-hop} <Badge type="info" text="½ turn · prepares the flip" />
+## Half Flip Hop <Badge type="info" text="½ turn · prepares the flip" /> {#half-flip-hop}
 
 A preparatory jump for the flip: a **half turn** where the flip is a whole turn. Takeoff and landing are on the **same foot** — that is what makes it a hop.
 
@@ -128,7 +128,7 @@ A preparatory jump for the flip: a **half turn** where the flip is a whole turn.
 
 ---
 
-## Half Flip {#half-flip} <Badge type="info" text="½ turn · prepares the flip" />
+## Half Flip <Badge type="info" text="½ turn · prepares the flip" /> {#half-flip}
 
 The half flip differs from the hop in one thing: **takeoff and landing are on opposite feet**, whereas the hop is executed on the same foot. Everything else — the three-turn entry, the toe placement, the half turn with feet drawn together — is the same.
 
@@ -153,7 +153,7 @@ The half flip differs from the hop in one thing: **takeoff and landing are on op
 
 ---
 
-## Half Loop {#half-loop} <Badge type="info" text="½ turn · edge jump" />
+## Half Loop <Badge type="info" text="½ turn · edge jump" /> {#half-loop}
 
 The only half jump here with no toe pick: it begins moving backward on a **left back outside edge**, rotates one half turn in the air, and lands backward on a **right back inside edge**.
 
@@ -180,7 +180,7 @@ The only half jump here with no toe pick: it begins moving backward on a **left 
 
 ---
 
-## Falling Leaf {#falling-leaf} <Badge type="info" text="½ turn · open position" />
+## Falling Leaf <Badge type="info" text="½ turn · open position" /> {#falling-leaf}
 
 Begins moving backward on a **right back outside edge** and rotates one half turn in the air **with the legs in an open position**, landing on the left toe and stepping forward onto a right inside edge.
 
@@ -205,7 +205,7 @@ Begins moving backward on a **right back outside edge** and rotates one half tur
 
 ---
 
-## Half Lutz Hop {#half-lutz-hop} <Badge type="info" text="½ turn · prepares the Lutz" />
+## Half Lutz Hop <Badge type="info" text="½ turn · prepares the Lutz" /> {#half-lutz-hop}
 
 The same as the half flip hop except for the takeoff edge: a **back outside** edge instead of a back inside. Same-foot landing — right toe to right toe.
 
@@ -223,7 +223,7 @@ The same as the half flip hop except for the takeoff edge: a **back outside** ed
 
 ---
 
-## Half Lutz {#half-lutz} <Badge type="info" text="½ turn · prepares the Lutz" />
+## Half Lutz <Badge type="info" text="½ turn · prepares the Lutz" /> {#half-lutz}
 
 The same as the half flip except for the takeoff edge: a **back outside** edge instead of a back inside. Opposite-foot landing, like the half flip.
 

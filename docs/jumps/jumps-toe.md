@@ -27,7 +27,7 @@ How to read the prints: Figures 8.21 and 8.23 are the prints a correct takeoff l
 
 ---
 
-## Split Jump {#split-jump} <Badge type="tip" text="Beginner–Intermediate" />
+## Split Jump <Badge type="tip" text="Beginner–Intermediate" /> {#split-jump}
 
 A position jump, not a rotation jump: **half a rotation** in the air with the legs in a full split. Take off from a **left back inside edge**, placing the **right toe** into the ice; land on the **left toe**, then step onto a **right forward inside edge**. It must be entered and executed **with speed**.
 
@@ -46,7 +46,7 @@ A position jump, not a rotation jump: **half a rotation** in the air with the le
 
 ---
 
-## Stag Jump {#stag-jump} <Badge type="tip" text="Beginner–Intermediate" />
+## Stag Jump <Badge type="tip" text="Beginner–Intermediate" /> {#stag-jump}
 
 The split jump with one change: the **front leg is bent at the knee and brought under the body** in a stag position. Same takeoff — **left back inside edge**, **right toe** placed in the ice — and the same half rotation, with the legs parallel to the ice; land on the **left toe**, followed by a **right forward inside edge**.
 
@@ -69,7 +69,7 @@ The split jump with one change: the **front leg is bent at the knee and brought 
 
 ---
 
-## Toe Loop {#toe-loop} <Badge type="tip" text="Beginner–Intermediate" />
+## Toe Loop <Badge type="tip" text="Beginner–Intermediate" /> {#toe-loop}
 
 The first full-revolution toe jump in the book's teaching order for singles (Salchow, then toe loop). It takes off from a **right back outside edge**, assisted by a **toe tap from the left foot**, makes **one revolution** in the air, and lands on a **right back outside edge**.
 
@@ -93,7 +93,7 @@ The first full-revolution toe jump in the book's teaching order for singles (Sal
 
 ---
 
-## Toe Walley {#toe-walley} <Badge type="warning" text="Intermediate" />
+## Toe Walley <Badge type="warning" text="Intermediate" /> {#toe-walley}
 
 A toe loop from the other edge. A toe Walley is executed from a **right back inside edge** by placing the **left toe** in the ice, lifting off, and rotating **one full turn** in the air before landing on a **right back outside edge**. The difference between a toe loop and a toe Walley is exactly that takeoff edge: toe loop from a **back outside** edge, toe Walley from a **back inside** edge.
 
@@ -115,7 +115,7 @@ A toe loop from the other edge. A toe Walley is executed from a **right back ins
 
 ---
 
-## Flip {#flip} <Badge type="warning" text="Intermediate" />
+## Flip <Badge type="warning" text="Intermediate" /> {#flip}
 
 One full turn from a **left back inside edge**: place the **right toe** into the ice to lift off, rotate **one full turn**, and land on a **right back outside edge** — the picking foot, so in the book's grouping the flip is a **same-foot** takeoff and landing jump.
 
@@ -143,7 +143,7 @@ One full turn from a **left back inside edge**: place the **right toe** into the
 
 ---
 
-## Lutz {#lutz} <Badge type="danger" text="Intermediate–Advanced" />
+## Lutz <Badge type="danger" text="Intermediate–Advanced" /> {#lutz}
 
 Exactly like the flip — **except the takeoff edge**. The Lutz is executed by skating on a **left back outside edge**, placing the **right toe** into the ice, lifting off, and rotating **one full turn** before landing on a **right back outside edge**. That one edge is the entire difference between the two jumps, and holding it is what makes the Lutz the last single taught in the book's order (Salchow, toe loop, loop, flip, Lutz).
 

@@ -25,7 +25,7 @@ How to read the diagrams: each turn is shown in three keyframes — **1 · Entry
 
 ---
 
-## Three Turns {#three-turns} <Badge type="tip" text="Foundation" />
+## Three Turns <Badge type="tip" text="Foundation" /> {#three-turns}
 
 One foot, on a curve, turning 180° — front to back or back to front. It changes **edge and direction, never feet**, and the print it leaves looks like the numeral **3**, its cusp pointing into the circle.
 
@@ -76,7 +76,7 @@ One foot, on a curve, turning 180° — front to back or back to front. It chang
 
 ---
 
-## Double Threes {#double-threes} <Badge type="warning" text="Intermediate" />
+## Double Threes <Badge type="warning" text="Intermediate" /> {#double-threes}
 
 Two three turns linked on the same foot with **no step down in between**: forward → back → forward again — e.g. an RFO three to RBI, straight into a second three back to RFO.
 
@@ -120,7 +120,7 @@ Two three turns linked on the same foot with **no step down in between**: forwar
 
 ---
 
-## Inside Open Mohawk {#inside-open-mohawk} <Badge type="tip" text="Beginner–Intermediate" />
+## Inside Open Mohawk <Badge type="tip" text="Beginner–Intermediate" /> {#inside-open-mohawk}
 
 The most common turn in skating — the everyday way to go from forward to backward. A two-foot turn: it changes **feet and direction, not edge** (right forward inside → left back inside). "Open" because the free foot is placed heel-to-instep and the hips finish open, free foot behind.
 
@@ -165,7 +165,7 @@ The most common turn in skating — the everyday way to go from forward to backw
 
 ---
 
-## Inside Closed Mohawk {#inside-closed-mohawk} <Badge type="warning" text="Intermediate" />
+## Inside Closed Mohawk <Badge type="warning" text="Intermediate" /> {#inside-closed-mohawk}
 
 The same turn as the inside open Mohawk with one change: the placement. "Closed" — **instep-to-heel**, hips closed, free foot finishing in front.
 
@@ -210,7 +210,7 @@ The same turn as the inside open Mohawk with one change: the placement. "Closed"
 
 ---
 
-## Outside Open Mohawk {#outside-open-mohawk} <Badge type="warning" text="Intermediate" />
+## Outside Open Mohawk <Badge type="warning" text="Intermediate" /> {#outside-open-mohawk}
 
 The open Mohawk on the outside edge: **right forward outside → left back outside** — the same step as the inside open Mohawk, on the other edge (the keyframes below are the same strip).
 
@@ -255,7 +255,7 @@ The open Mohawk on the outside edge: **right forward outside → left back outsi
 
 ---
 
-## Outside Closed Mohawk {#outside-closed-mohawk} <Badge type="warning" text="Intermediate–Advanced" />
+## Outside Closed Mohawk <Badge type="warning" text="Intermediate–Advanced" /> {#outside-closed-mohawk}
 
 The closed version on the outside edge: **forward outside → back outside**, instep-to-heel placement, free foot finishing forward.
 
@@ -302,7 +302,7 @@ The closed version on the outside edge: **forward outside → back outside**, in
 
 ---
 
-## Choctaws {#choctaws} <Badge type="danger" text="Advanced" />
+## Choctaws <Badge type="danger" text="Advanced" /> {#choctaws}
 
 The step turn that changes everything: **feet, direction, and edge** (e.g. right forward outside → left back inside). The free foot is placed to the heel of the skating foot, the weight rocks to the ball of the foot, and the hips twist through the change of circle.
 
@@ -357,7 +357,7 @@ The step turn that changes everything: **feet, direction, and edge** (e.g. right
 
 ---
 
-## Brackets {#brackets} <Badge type="danger" text="Advanced" />
+## Brackets <Badge type="danger" text="Advanced" /> {#brackets}
 
 The three turn's opposite twin. One foot, changes edge and direction like a three — but where a three rotates **into** the circle, a bracket turns **outside** it. The rotation is exactly reversed, and the print's cusp points away from the circle's centre.
 
@@ -404,7 +404,7 @@ The three turn's opposite twin. One foot, changes edge and direction like a thre
 
 ---
 
-## Counters {#counters} <Badge type="danger" text="Advanced" />
+## Counters <Badge type="danger" text="Advanced" /> {#counters}
 
 One foot, and the edge never changes: **forward inside → back inside, forward outside → back outside**. Like a change of edge with a turn in the middle — except the turn faces into the **new** circle, taking you off your original circle entirely.
 
@@ -448,7 +448,7 @@ One foot, and the edge never changes: **forward inside → back inside, forward 
 
 ---
 
-## Rockers {#rockers} <Badge type="danger" text="Advanced" />
+## Rockers <Badge type="danger" text="Advanced" /> {#rockers}
 
 The counter's mirror image. Same edges in and out, same change of circle — but the turn in the middle faces into the **original** circle, rotating *into* the curve like a three turn instead of against it.
 
@@ -491,7 +491,7 @@ The counter's mirror image. Same edges in and out, same change of circle — but
 
 ---
 
-## Footwork {#footwork} <Badge type="info" text="All levels" />
+## Footwork <Badge type="info" text="All levels" /> {#footwork}
 
 Turns plus freestyle moves, combined — **"the glue that holds a program together."** A step sequence is built in one of three patterns, and judges read the rulebook words literally: **bold, at least, full, complete, must, not less**.
 

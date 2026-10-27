@@ -25,7 +25,7 @@ All descriptions in the book — and in all six Jumps files — assume a skater 
 
 ---
 
-## Jumping Theory {#jumping-theory} <Badge type="danger" text="Advanced — reference only" />
+## Jumping Theory <Badge type="danger" text="Advanced — reference only" /> {#jumping-theory}
 
 The biomechanics of jumping has been explored thoroughly, and the studies agree on a few basic premises.
 
@@ -52,7 +52,7 @@ The biomechanics of jumping has been explored thoroughly, and the studies agree 
 
 ---
 
-## The Progression Table {#the-progression-table} <Badge type="danger" text="Advanced — reference only" />
+## The Progression Table <Badge type="danger" text="Advanced — reference only" /> {#the-progression-table}
 
 One row per jump — revolutions, takeoff and landing exactly as the book states them, and the one point the book flags for that jump. Every landing below is the checked back outside landing of the fundamentals file.
 
@@ -86,7 +86,7 @@ One row per jump — revolutions, takeoff and landing exactly as the book states
 
 ---
 
-## Master the Move — Brian Boitano's Picture-Perfect Jumps {#master-the-move-brian-boitano} <Badge type="danger" text="Advanced — reference only" />
+## Master the Move — Brian Boitano's Picture-Perfect Jumps <Badge type="danger" text="Advanced — reference only" /> {#master-the-move-brian-boitano}
 
 ::: info Master the Move
 Brian Boitano's jumping technique is **the standard by which to judge and critique jumps** — his jumps are nearly textbook perfect. His air position is the model the theory section describes: straight from head to toes, with square hips and shoulders, and tight arms and legs.
@@ -100,7 +100,7 @@ Brian Boitano's jumping technique is **the standard by which to judge and critiq
 
 ---
 
-## Quads {#quads} <Badge type="danger" text="Advanced — reference only" />
+## Quads <Badge type="danger" text="Advanced — reference only" /> {#quads}
 
 The book gives the quadruple jumps **no separate descriptions**: the basic instructions for the corresponding double and triple apply to each quad. As rotation increases, the same elements are essential:
 
@@ -113,7 +113,7 @@ The book gives the quadruple jumps **no separate descriptions**: the basic instr
 
 ---
 
-## Tools for Learning Jumps {#tools-for-learning-jumps} <Badge type="danger" text="Advanced — reference only" />
+## Tools for Learning Jumps <Badge type="danger" text="Advanced — reference only" /> {#tools-for-learning-jumps}
 
 The chapter's closing toolbox — useful for beginners getting comfortable with first jumps, and for advanced skaters refining multi-rotational ones.
 
@@ -149,7 +149,7 @@ And six **qualities** to look for instead: **speed, height, distance, posture, s
 
 ---
 
-## Summary {#summary} <Badge type="info" text="Chapter close" />
+## Summary <Badge type="info" text="Chapter close" /> {#summary}
 
 The chapter's own summary, in brief:
 

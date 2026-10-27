@@ -13,11 +13,11 @@ hero:
       text: Stroking
       link: /stroking
     - theme: alt
-      text: Turns & Footwork
-      link: /turns-footwork
-    - theme: alt
       text: Edges & Crossovers
       link: /edges-crossovers
+    - theme: alt
+      text: Turns & Footwork
+      link: /turns-footwork
     - theme: alt
       text: Spins
       link: /spins/spins

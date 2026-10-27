@@ -16,8 +16,8 @@ export default {
           { text: 'Stops', link: '/stops' },
           { text: 'Stroking', link: '/stroking' },
           { text: 'Freestyle Moves', link: '/freestyle-moves' },
-          { text: 'Turns & Footwork', link: '/turns-footwork' },
           { text: 'Edges & Crossovers', link: '/edges-crossovers' },
+          { text: 'Turns & Footwork', link: '/turns-footwork' },
           {
             text: 'Spins',
             items: [

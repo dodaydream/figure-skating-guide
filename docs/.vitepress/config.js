@@ -17,6 +17,17 @@ export default {
           { text: 'Stroking', link: '/stroking' },
           { text: 'Edges & Crossovers', link: '/edges-crossovers' },
           { text: 'Turns & Footwork', link: '/turns-footwork' },
+          {
+  text: 'Jumps',
+  items: [
+    { text: 'Fundamentals', link: '/jumps/jumps-fundamentals' },
+    { text: 'Preparatory Jumps', link: '/jumps/jumps-preparatory' },
+    { text: 'Edge Jumps', link: '/jumps/jumps-edge' },
+    { text: 'Toe Jumps', link: '/jumps/jumps-toe' },
+    { text: 'Combination Jumps', link: '/jumps/jumps-combinations' },
+    { text: 'Multi-Rotational Jumps', link: '/jumps/jumps-multi-rotational' }
+  ]
+}
         ]
       }
     ],

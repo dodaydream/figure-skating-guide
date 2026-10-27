@@ -13,24 +13,15 @@ hero:
       text: Stroking
       link: /stroking
     - theme: alt
+      text: Turns & Footwork
+      link: /turns-footwork
+    - theme: alt
       text: Edges & Crossovers
       link: /edges-crossovers
     - theme: alt
-      text: Turns & Footwork
-      link: /turns-footwork
-features:
-  - title: Stops 🛑
-    details: Snowplow, T-stop, hockey stop, one-foot stop
-  - title: Stroking ⛸️
-    details: Forward/back stroking, sculling (swizzles), crossovers intro
-  - title: Edges & Crossovers 📐
-    details: The 8 edges, change of edge, forward/back crossovers
-  - title: Turns & Footwork 🔄
-    details: Three turns, Mohawks, Choctaws, brackets, rockers, counters
-  - title: Freestyle Moves 🌟
-    details: Lunges, spirals, spread eagles, hydroblading, Ina Bauers, falling leaf / split / stag jumps
-  - title: Spins 🌪️
-    details: Fundamentals, upright, sit, camel, layback, flying, illusion/star/butterfly, combination spins
-  - title: Jumps 🦘
-    details: Fundamentals, preparatory jumps, edge jumps, toe jumps, combination & multi-rotational jumps
+      text: Spins
+      link: /spins/spins
+    - theme: alt
+      text: Jumps
+      link: /jumps/jumps-fundamentals
 ---

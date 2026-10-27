@@ -29,6 +29,8 @@ features:
     details: Three turns, Mohawks, Choctaws, brackets, rockers, counters
   - title: Freestyle Moves 🌟
     details: Lunges, spirals, spread eagles, hydroblading, Ina Bauers, falling leaf / split / stag jumps
+  - title: Spins 🌪️
+    details: Fundamentals, upright, sit, camel, layback, flying, illusion/star/butterfly, combination spins
   - title: Jumps 🦘
     details: Fundamentals, preparatory jumps, edge jumps, toe jumps, combination & multi-rotational jumps
 ---

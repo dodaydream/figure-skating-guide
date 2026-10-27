@@ -19,6 +19,19 @@ export default {
           { text: 'Edges & Crossovers', link: '/edges-crossovers' },
           { text: 'Turns & Footwork', link: '/turns-footwork' },
           {
+            text: 'Spins',
+            items: [
+              { text: 'Spinning Fundamentals', link: '/spins/spins' },
+              { text: 'Upright Spins', link: '/spins/upright-spins' },
+              { text: 'Sit Spins', link: '/spins/sit-spins' },
+              { text: 'Camel Spins', link: '/spins/camel-spins' },
+              { text: 'Layback Spins', link: '/spins/layback-spins' },
+              { text: 'Flying Spins', link: '/spins/flying-spins' },
+              { text: 'Illusion, Star & Butterfly', link: '/spins/illusion-star-butterfly' },
+              { text: 'Combination Spins', link: '/spins/combination-spins' }
+            ]
+          },
+          {
             text: 'Jumps',
             items: [
               { text: 'Fundamentals', link: '/jumps/jumps-fundamentals' },

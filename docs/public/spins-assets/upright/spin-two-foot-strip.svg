@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="932" height="334" viewBox="0 0 932 334">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+    </marker>
+    <style>
+      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+      .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+      .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah)}
+      .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#ah)}
+      .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dot{fill:#d64541}
+      .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="932" height="334" fill="#ffffff"/>
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+    <g transform="translate(118,150) rotate(12)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <g transform="translate(182,150) rotate(-12)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+  </g>
+  <text x="150" y="323" text-anchor="middle" class="lblb">1 · Start</text>
+  <g transform="translate(316,0)">
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+    <path d="M98,148 a30,30 0 1,1 30,30" class="track"/>
+    <path d="M142,148 a30,30 0 1,1 30,30" class="track"/>
+    <g transform="translate(128,148) rotate(12)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <g transform="translate(172,148) rotate(-12)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <circle cx="139" cy="130" r="5" class="dot"/>
+    <circle cx="169" cy="169" r="5" class="dot"/>
+  </g>
+  <text x="466" y="323" text-anchor="middle" class="lblb">2 · Pull in</text>
+  <g transform="translate(632,0)">
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+    <path d="M98,148 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" class="track"/>
+    <path d="M142,148 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" class="track"/>
+    <g transform="translate(128,148) rotate(12)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <g transform="translate(172,148) rotate(-12)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <circle cx="139" cy="130" r="5" class="dot"/>
+    <circle cx="169" cy="169" r="5" class="dot"/>
+  </g>
+  <text x="782" y="323" text-anchor="middle" class="lblb">3 · The spin</text>
+</svg>

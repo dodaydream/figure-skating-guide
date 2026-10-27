@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+    </marker>
+    <style>
+      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+      .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+      .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah)}
+      .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#ah)}
+      .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dot{fill:#d64541}
+      .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+  <path d="M138.4,116.1 C137,116.2 133,116.4 130.3,117.1 C127.7,117.9 124.9,118.9 122.3,120.3 C119.7,121.7 117.1,123.5 114.8,125.6 C112.5,127.7 110.2,130.1 108.3,132.8 C106.5,135.6 104.8,138.6 103.5,141.9 C102.2,145.1 101.2,148.7 100.7,152.3 C100.2,155.9 100,159.8 100.3,163.7 C100.7,167.5 101.4,171.5 102.7,175.3 C103.9,179.2 105.6,183.1 107.8,186.7 C110,190.3 112.6,193.8 115.7,197 C118.7,200.2 122.3,203.2 126.1,205.7 C130,208.2 134.2,210.4 138.7,212 C143.2,213.7 148,214.9 152.9,215.5 C157.9,216.1 163.1,216.3 168.2,215.8 C173.3,215.3 178.5,214.2 183.6,212.5 C187.1,211.4 190.7,209.9 194.1,208.1" class="track"/>
+  <g transform="translate(194,208) rotate(63)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+  <g transform="translate(129,159) rotate(63)"><rect x="-13" y="-28" width="26" height="56" rx="13" fill="#2b3440"/><line x1="0" y1="-34" x2="0" y2="34" stroke="#aeb9c4" stroke-width="3"/></g>
+  <circle cx="190" cy="200" r="5" class="dot"/>
+  <circle cx="150" cy="148" r="5" class="dot"/>
+</svg>

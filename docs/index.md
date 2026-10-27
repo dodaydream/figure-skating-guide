@@ -1,10 +1,34 @@
-# Figure Skating Guide
+---
+layout: home
 
-Quick-reference pages from *The Complete Book of Figure Skating* by Carole Shulman.
-
-> **Disclaimer:** Content is summarized by AI — inaccuracies may occur. The repository owner assumes no liability.
-
-- [Stopping](/stops) — snowplow, T-stop, hockey stop, one-foot stop (Chapter 4)
-- [Stroking](/stroking) — forward/back stroking, sculling (swizzles), crossovers intro (Chapter 4)
-- [Edges & Crossovers](/edges-crossovers) — the 8 edges, change of edge, forward/back crossovers (Chapter 4)
-- [Turns & Footwork](/turns-footwork) — three turns, Mohawks, Choctaws, brackets, rockers, counters (Chapter 6)
+hero:
+  name: "Figure Skating Guide"
+  text: "Quick-reference pages from <em>The Complete Book of Figure Skating</em> by Carole Shulman"
+  tagline: "AI-summarized content — inaccuracies may occur. The repository owner assumes no liability."
+  actions:
+    - theme: brand
+      text: Stops
+      link: /stops
+    - theme: alt
+      text: Stroking
+      link: /stroking
+    - theme: alt
+      text: Edges & Crossovers
+      link: /edges-crossovers
+    - theme: alt
+      text: Turns & Footwork
+      link: /turns-footwork
+features:
+  - title: Stops 🛑
+    details: Snowplow, T-stop, hockey stop, one-foot stop
+  - title: Stroking ⛸️
+    details: Forward/back stroking, sculling (swizzles), crossovers intro
+  - title: Edges & Crossovers 📐
+    details: The 8 edges, change of edge, forward/back crossovers
+  - title: Turns & Footwork 🔄
+    details: Three turns, Mohawks, Choctaws, brackets, rockers, counters
+  - title: Freestyle Moves 🌟
+    details: Lunges, spirals, spread eagles, hydroblading, Ina Bauers, falling leaf / split / stag jumps
+  - title: Jumps 🦘
+    details: Fundamentals, preparatory jumps, edge jumps, toe jumps, combination & multi-rotational jumps
+---

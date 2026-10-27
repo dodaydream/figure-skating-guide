@@ -63,6 +63,10 @@ Reading the diagrams: in every one you're looking down at your own feet. The red
 
 ![Black-and-white book photo in two panels: (a) a skater pressing with the right foot, (b) the same skater gliding forward on the left foot](/stroking-assets/fig5-forward-stroking.png)
 
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/UnNJ0toM2j4?si=sdyGmieijt501XFp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 *From the book — Figure 4.5: (a) the right foot presses, (b) the left foot glides*
 
 | Tag | Description |

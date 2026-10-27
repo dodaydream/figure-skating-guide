@@ -152,7 +152,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 </div>
 
 </div>
-<figcaption>Feet &amp; blades, from above — the three beats of the move.</figcaption>
+<p>Feet &amp; blades, from above — the three beats of the move.</p>
 </div>
 
 </div>
@@ -162,6 +162,12 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 ![Black-and-white book photo: (c) the right foot changed to an inside edge](/edges-assets/fig8-change-of-edge-c.png)
 
 *From the book — Figure 4.8: (a) start on a right outside edge, (b) bring the left foot forward, (c) the right foot changes to an inside edge*
+
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/CW59EFo5mu0?si=RItwNLAdRnXtndyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+https://youtu.be/aEUV92TWbVI?si=vxOj5wAvMqGVUoDR
 
 | | |
 |---|---|
@@ -200,7 +206,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 </div>
 
 </div>
-<figcaption>Feet &amp; blades, from above — the three beats of the move.</figcaption>
+<p>Feet &amp; blades, from above — the three beats of the move.</p>
 </div>
 
 </div>
@@ -245,7 +251,7 @@ Reading the diagrams: in every diagram you are looking down at your own feet. Th
 </div>
 
 </div>
-<figcaption>Feet &amp; blades, from above — the three beats of the move.</figcaption>
+<p>Feet &amp; blades, from above — the three beats of the move.</p>
 </div>
 
 </div>

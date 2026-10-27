@@ -20,6 +20,6 @@
   <path d="M84,268 C87,259.3 95,232.3 102,216 C109,199.7 118.8,182.5 126,170 C133.2,157.5 137.3,151.7 145,141" class="track"/>
   <g transform="translate(140,148) rotate(35)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
   <g transform="translate(100,190) rotate(30)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
-  <circle cx="128" cy="182" r="5" class="dot"/>
+  <circle cx="152" cy="157" r="5" class="dot"/>
   <path d="M74,130 L93,94" class="arr"/>
 </svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="932" height="334" viewBox="0 0 932 334">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d64541"/>
+    </marker>
+    <style>
+      .panel{fill:#ffffff;stroke:#c9d6e4;stroke-width:1.5}
+      .ptitle{font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:2px;fill:#5a718c}
+      .lbl{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;fill:#33506e}
+      .lblb{font-family:'Segoe UI',Arial,sans-serif;font-size:13px;font-weight:700;fill:#16324f}
+      .arr{stroke:#d64541;stroke-width:3;fill:none;marker-end:url(#ah)}
+      .dash{stroke:#d64541;stroke-width:2.5;stroke-dasharray:6 5;fill:none;marker-end:url(#ah)}
+      .spray{stroke:#7fb2dd;stroke-width:3;stroke-linecap:round}
+      .track{stroke:#7fb2dd;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dot{fill:#d64541}
+      .ghostboot{fill:none;stroke:#7d93a8;stroke-width:2.5;stroke-dasharray:6 4}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="932" height="334" fill="#ffffff"/>
+  <g transform="translate(0,0)">
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+    <path d="M84,268 C87,259.3 95,232.3 102,216 C109,199.7 118.8,182.5 126,170 C127.7,167.1 129.2,164.5 130.6,162.2" class="track"/>
+    <g transform="translate(128,170) rotate(30)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <g transform="translate(104,222) rotate(30)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+    <circle cx="141" cy="178" r="5" class="dot"/>
+    <path d="M126,286 L145,250" class="arr"/>
+  </g>
+  <text x="150" y="323" text-anchor="middle" class="lblb">1 · Entry</text>
+  <g transform="translate(316,0)">
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+    <path d="M84,268 C87,259.3 95,232.3 102,216 C109,199.7 118.8,182.5 126,170 C133.2,157.5 137.3,151.7 145,141 C147.5,137.6 150.2,133.8 153.2,130.0" class="track"/>
+    <g transform="translate(150,138) rotate(36)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <g transform="translate(124,166) rotate(30)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <circle cx="162" cy="147" r="5" class="dot"/>
+    <path d="M74,130 L93,94" class="arr"/>
+  </g>
+  <text x="466" y="323" text-anchor="middle" class="lblb">2 · The turn</text>
+  <g transform="translate(632,0)">
+  <rect x="0" y="0" width="300" height="300" class="panel"/>
+    <path d="M84,268 C87,259.3 95,232.3 102,216 C109,199.7 118.8,182.5 126,170 C133.2,157.5 137.3,151.7 145,141 C152.7,130.3 163.2,116.8 172,106 C180.8,95.2 189.7,85.7 198,76 C206.3,66.3 218,52.7 222,48" class="track"/>
+    <g transform="translate(188,88) rotate(42)"><rect x="-13" y="-34" width="26" height="68" rx="13" fill="#2b3440"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#aeb9c4" stroke-width="3"/></g>
+    <g transform="translate(156,132) rotate(42)"><rect x="-13" y="-34" width="26" height="68" rx="13" class="ghostboot"/><line x1="0" y1="-40" x2="0" y2="40" stroke="#7d93a8" stroke-width="2.5" stroke-dasharray="5 4"/></g>
+    <circle cx="199" cy="98" r="5" class="dot"/>
+    <path d="M148,86 L165,52" class="arr"/>
+  </g>
+  <text x="782" y="323" text-anchor="middle" class="lblb">3 · Exit</text>
+</svg>

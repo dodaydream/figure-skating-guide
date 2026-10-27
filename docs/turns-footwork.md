@@ -102,8 +102,10 @@ Two three turns linked on the same foot with **no step down in between**: forwar
 *From the book — Figure 6.2: the double three on a circle*
 
 <div class="video-embed">
-<iframe src="https://www.youtube.com/embed/eQqZdH3eKfg?si=XDtHPohZV1k9hjY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/eQqZdH3eKfg" title="Double Three-Turns for Beginners: Step-by-Step Figure Skating Tutorial — Style Skating" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+[▶ Watch: Double Three-Turns for Beginners: Step-by-Step Figure Skating Tutorial — Style Skating (YouTube)](https://www.youtube.com/watch?v=eQqZdH3eKfg)
 
 | | |
 |---|---|
@@ -190,6 +192,12 @@ The same turn as the inside open Mohawk with one change: the placement. "Closed"
 ![Black-and-white book photo (c): the skater stepped down and gliding backward after the inside closed Mohawk, free foot in front](/turns-assets/fig64-inside-closed-mohawk-c.png)
 *From the book — Figure 6.4: the inside closed Mohawk, (a)–(c)*
 
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/aaMLUwdww-k" title="60. Forward Inside Closed Mohawks — Ice Dancer Oleg" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[▶ Watch: 60. Forward Inside Closed Mohawks — Ice Dancer Oleg (YouTube)](https://www.youtube.com/watch?v=aaMLUwdww-k)
+
 | | |
 |---|---|
 | **Body** | Same rotation and check as the open Mohawk; the difference is where the new foot lands and the closed hip at the finish. |
@@ -273,6 +281,12 @@ The closed version on the outside edge: **forward outside → back outside**, in
 
 ![Black-and-white book photos (b) and (c): the instep-to-heel placement and step down of the outside closed Mohawk](/turns-assets/fig66-outside-closed-mohawk-bc.png)
 *From the book — Figure 6.6: the outside closed Mohawk, (a)–(c)*
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/vx6MwXb7CsU" title="65. Forward Outside Closed Mohawks — Ice Dancer Oleg" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[▶ Watch: 65. Forward Outside Closed Mohawks — Ice Dancer Oleg (YouTube)](https://www.youtube.com/watch?v=vx6MwXb7CsU)
 
 | | |
 |---|---|

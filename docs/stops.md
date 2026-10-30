@@ -5,7 +5,7 @@ title: Stops
 
 Stops — Quick Reference
 
-Four ways to stop on figure skates, in the order you learn them — from the book *The Complete Book of Figure Skating*, Chapter 4.
+Four core ways to stop on figure skates, plus one show-focused variation, in the order you learn them — from the book *The Complete Book of Figure Skating*, Chapter 4.
 
 ::: warning The golden rule
 Brake with the blade — **never run into the boards or drag your toe pick.**
@@ -18,6 +18,7 @@ Brake with the blade — **never run into the boards or drag your toe pick.**
 [Graceful, planned stop → T-Stop](#t-stop)
 [Emergency / fastest stop → Hockey Stop](#hockey-stop)
 [For show → One-Footed Stop](#one-footed-stop)
+[For choreography / artistic finish → Show Stop](#show-stop)
 
 ---
 
@@ -33,7 +34,7 @@ Brake with the blade — **never run into the boards or drag your toe pick.**
 | Tag | Description |
 | --- | ----------- |
 | **Body** | Upright torso, arms extended straight out to the sides for balance. |
-| **Feet** | Start with feet parallel, about shoulder-width apart. Press both feet into the ice and push/slide them out to the sides, finishing in a wedge like the point of a snowplow blade: toes turned in toward each other, heels pushed out — an upside-down V seen from above. |
+| **Feet** | Start with feet parallel, about shoulder-width apart. Press both feet into the ice and push/slide them out to the sides, finishing in a wedge like the point of a snowplow blade: toes in, heels out, forming an upside-down V. |
 | **Blade** | **Both blades.** Braking comes from pressing down so the blades skid and shave the ice. |
 
 ### Tips
@@ -55,14 +56,14 @@ Not in the book — a standard beginner progression, added from coaching sources
 </div>
 
 <div class="video-embed">
-<iframe src="https://www.youtube-nocookie.com/embed/rhQY1_bTjVs" title="Coach Julia — How to stop on ice skates: Forward Snowplow Stop, including the one-foot version" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/rhQY1_bTjVs" title="Coach Julia — How to stop on ice skates: Forward Snowplow Stop, including the one-foot version" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 [▶ Watch: Forward Snowplow Stop, incl. the one-foot version — Coach Julia (YouTube)](https://www.youtube.com/watch?v=rhQY1_bTjVs)
 
 | Tag | Description |
 | --- | ----------- |
 | **Body** | Same snowplow posture — upright torso, arms out to the sides, knees bent. Most of your weight sits over the straight gliding foot; the braking foot starts light. |
-| **Feet** | Glide forward on one foot, pointing straight ahead. Set the other foot down slightly ahead, turned in about 45° — toe in, heel pushed out, like one half of the snowplow wedge — and ease it into a scrape. |
+| **Feet** | Glide forward on one foot, pointing straight ahead. Set the other foot down slightly ahead, turned in about 45° — toe in, heel pushed out, like one half of the snowplow wedge — and slowly add pressure. |
 | **Blade** | The braking foot skids on the inside part of its inside edge, shaving snow; keep the blade flatter so it scrapes instead of catching. The gliding blade stays flat and straight. |
 
 ### Tips
@@ -86,7 +87,7 @@ Not in the book — a standard beginner progression, added from coaching sources
 | Tag | Description |
 | --- | ----------- |
 | **Body** | Both arms stretched out to the sides, palms facing the ice and pressing down slightly. Ribcage lifted slightly so the back stays straight — this gives posture, balance, and stability. |
-| **Feet** | Glide forward on one foot. Lift the other foot and set it down **12–18 inches behind** the gliding foot, turned perpendicular. The back foot then drags/pulls lightly toward the front foot. You finish in an **upside-down T**: front foot pointing forward, back foot sideways behind it, heel of the front foot at the instep of the back foot. During the drag: front knee slightly bent, back knee straight; at the very end, both knees straighten. |
+| **Feet** | Glide forward on one foot. Lift the other foot and set it down **12–18 inches behind** the gliding foot, turned perpendicular. The back foot then drags/pulls lightly toward the front foot. You finish in an upside-down T: front foot pointing forward, back foot sideways behind it, heel of the front foot at the instep of the back foot. During the drag: front knee slightly bent, back knee straight; at the very end, both knees straighten. |
 | **Blade** | **The back foot does the braking** (its blade skids with snowplow-like pressure). **Progression:** place the back foot on its outside edge, close behind the front foot — this builds the outside-edge control you'll need for the one-foot stop. |
 
 ### Tips
@@ -143,7 +144,30 @@ Not in the book — a standard beginner progression, added from coaching sources
 
 ---
 
-## All four stops at a glance
+## Show Stop <Badge type="warning" text="Show / Artistic" />
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/qNuzdmWCubc" title="Show Stop demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+[▶ Watch: Show Stop — YouTube](https://www.youtube.com/watch?v=qNuzdmWCubc)
+
+This is the graceful, choreographic stop that is meant to look clean and controlled rather than act as an emergency brake. Think of it as a skating showcase move: glide into the edge, turn the blade to absorb speed, and hold a strong finish with posture and balance.
+
+| Tag | Description |
+| --- | ----------- |
+| **Body** | Upright and expressive — shoulders open, head up, arms in a controlled position that complements the line of the stop. |
+| **Feet** | Glide on one foot, then pivot the skater's weight and blade to a clean sideways finish, holding the friction long enough to show form and control. |
+| **Blade** | One blade used deliberately to create a polished, artistic stop. The goal is shape and control, not maximum braking force. |
+
+### Tips
+
+- This is a performance stop, not a rescue stop.
+- Practice after you can already control a clean hockey stop and one-footed stop.
+- Keep the finish long and elegant — a show stop should look effortless, stable, and intentional.
+
+---
+
+## All five stops at a glance
 
 | Stop | Feet | Braking blade(s) | Body key cue | Speed of stop | Level |
 | ---- | ---- | ---------------- | ------------ | ------------- | ----- |
@@ -152,6 +176,7 @@ Not in the book — a standard beginner progression, added from coaching sources
 | Hockey stop | Both turn 90° sideways | Both edges bite together | Shoulders square & checked, fast knee bend | Fastest — emergency | Advanced |
 | One-footed | One foot sideways, other lifted | Single supporting blade | Same as hockey stop | Slow — for show | Advanced |
 | One-foot snowplow (bonus) | One straight, one turned in ~45° | Inside edge of the braking foot | Weight on gliding foot, knees bent | Slow–medium | Beginner |
+| Show stop | Artistic one-foot finish | One blade, controlled and deliberate | Upright, expressive, balanced | Slow–stylized | Intermediate–advanced |
 
 ---
 
